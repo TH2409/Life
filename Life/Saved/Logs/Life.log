@@ -1,9 +1,9 @@
-﻿Log file open, 06/15/17 21:47:43
+﻿Log file open, 06/16/17 15:43:40
 LogInit:Display: Running engine for game: Life
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1239056043) SRandInit(1239056043).
+LogInit:Display: RandInit(-793919944) SRandInit(-793919944).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.080814
+LogStats: Stats thread started at 0.078339
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -48,726 +48,450 @@ LogInit: Compiled (64-bit): May 31 2017 02:03:30
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.16
-LogInit: Command line: -EpicPortal 
+LogInit: Command line:  
 LogInit: Base directory: E:/Epic Games/UE_4.16/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.06.15-20.47.44:520][  0]LogInit: Selected Device Profile: [Windows]
-[2017.06.15-20.47.44:520][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.06.15-20.47.44:532][  0]LogInit: Computer: RAMSAY
-[2017.06.15-20.47.44:532][  0]LogInit: User: Tom
-[2017.06.15-20.47.44:532][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.06.15-20.47.44:532][  0]LogInit: High frequency timer resolution =3.903988 MHz
-[2017.06.15-20.47.44:532][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.06.15-20.47.44:532][  0]LogMemory: Platform Memory Stats for Windows
-[2017.06.15-20.47.44:532][  0]LogMemory: Process Physical Memory: 277.66 MB used, 277.66 MB peak
-[2017.06.15-20.47.44:532][  0]LogMemory: Process Virtual Memory: 266.57 MB used, 266.57 MB peak
-[2017.06.15-20.47.44:532][  0]LogMemory: Physical Memory: 8427.85 MB used,  7898.23 MB free, 16326.08 MB total
-[2017.06.15-20.47.44:532][  0]LogMemory: Virtual Memory: 678.25 MB used,  7898.23 MB free, 134217728.00 MB total
-[2017.06.15-20.47.44:582][  0]LogInit: Using OS detected language (en-US).
-[2017.06.15-20.47.44:582][  0]LogInit: Using OS detected locale (en-GB).
-[2017.06.15-20.47.44:585][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.06.15-20.47.45:362][  0]LogD3D11RHI: D3D11 adapters:
-[2017.06.15-20.47.45:844][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
-[2017.06.15-20.47.45:844][  0]LogD3D11RHI:       2016/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.06.15-20.47.45:845][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.06.15-20.47.45:845][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.06.15-20.47.45:845][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.06.15-20.47.45:849][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.06.15-20.47.45:849][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
-[2017.06.15-20.47.45:849][  0]LogWindows: EnumDisplayDevices:
-[2017.06.15-20.47.45:850][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
-[2017.06.15-20.47.45:850][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
-[2017.06.15-20.47.45:850][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2017.06.15-20.47.45:850][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2017.06.15-20.47.45:850][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.06.15-20.47.45:850][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
-[2017.06.15-20.47.45:850][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
-[2017.06.15-20.47.45:850][  0]LogD3D11RHI:      Driver Date: 12-29-2016
-[2017.06.15-20.47.45:850][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.06.15-20.47.46:303][  0]LogD3D11RHI: Async texture creation enabled
-[2017.06.15-20.47.46:338][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.06.15-20.47.46:436][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (C:/Users/Tom/Documents/GitHub/Life/Life/Intermediate/Shaders/WorkingDirectory/9540/).
-[2017.06.15-20.47.46:436][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tom/AppData/Local/Temp/UnrealShaderWorkingDir/AD4C396443AD008CE1EAB18CA95CD713/'.
-[2017.06.15-20.47.46:436][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.06.15-20.47.47:499][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.06.15-20.47.47:535][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.06.15-20.47.47:569][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.06.15-20.47.47:603][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.06.15-20.47.47:638][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.06.15-20.47.47:672][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.06.15-20.47.47:706][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.06.15-20.47.47:741][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.06.15-20.47.47:769][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.06.15-20.47.47:803][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.06.15-20.47.47:840][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.06.15-20.47.47:873][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.06.15-20.47.47:907][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.06.15-20.47.47:944][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.06.15-20.47.47:977][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.06.15-20.47.48:045][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.06.15-20.47.48:045][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.06.15-20.47.48:070][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.06.15-20.47.48:139][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.06.15-20.47.48:160][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.06.15-20.47.48:193][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.06.15-20.47.48:227][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.06.15-20.47.48:261][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.06.15-20.47.48:295][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.06.15-20.47.48:295][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.06.15-20.47.48:602][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.06.15-20.47.48:683][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/Tom/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.06.15-20.47.48:683][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tom/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2017.06.15-20.47.48:683][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Tom/Documents/GitHub/Life/Life/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.06.15-20.47.48:683][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.06.15-20.47.48:683][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Tom/Documents/GitHub/Life/Life/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.06.15-20.47.48:683][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.06.15-20.47.48:697][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.06.15-20.47.48:710][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tom/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.06.15-20.47.48:718][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.06.15-20.47.48:718][  0]LogSlate: Using Freetype 2.6.0
-[2017.06.15-20.47.48:719][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.06.15-20.47.48:719][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.06.15-20.47.48:982][  0]LogInit: Selected Device Profile: [Windows]
-[2017.06.15-20.47.49:043][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.06.15-20.47.49:159][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.06.15-20.47.49:188][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.06.15-20.47.49:219][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.06.15-20.47.49:219][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.06.15-20.47.49:219][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.06.15-20.47.49:622][  0]LogNetVersion: Life , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 205495349)
-[2017.06.15-20.47.49:672][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
-[2017.06.15-20.47.49:726][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.039036 seconds
-[2017.06.15-20.47.49:732][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2017.06.15-20.47.49:732][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
-[2017.06.15-20.47.49:732][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.06.15-20.47.49:776][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.06.15-20.47.51:579][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.06.15-20.47.51:617][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.06.15-20.47.51:984][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.06.15-20.47.52:256][  0]SourceControl: Info Source control is disabled
-[2017.06.15-20.47.52:309][  0]SourceControl: Info Source control is disabled
-[2017.06.15-20.47.52:340][  0]SourceControl: Info Source control is disabled
-[2017.06.15-20.47.52:373][  0]SourceControl: Info Source control is disabled
-[2017.06.15-20.47.52:818][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.06.15-20.47.53:232][  0]LogEngine: Initializing Engine...
-[2017.06.15-20.47.58:982][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2017.06.15-20.47.58:982][  0]LogHMD: Oculus plugin initialized. Version: 4.16.1-3466753+++UE4+Release-4.16, LibOVR: 1.15.0, SDK: 1.12.0, built May 31 2017, 02:11:10
-[2017.06.15-20.47.59:167][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.06.15-20.47.59:167][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.06.15-20.47.59:257][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.06.15-20.47.59:276][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.15-20.47.59:287][  0]LogInit: FAudioDevice initialized.
-[2017.06.15-20.47.59:327][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Tom/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.06.15-20.47.59:338][  0]LogInit: Texture streaming: Enabled
-[2017.06.15-20.47.59:400][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.06.15-20.47.59:560][  0]LogInit: Transaction tracking system initialized
-[2017.06.15-20.47.59:787][  0]BlueprintLog: New page: Editor Load
-[2017.06.15-20.48.00:630][  0]LocalizationService: Info Localization service is disabled
-[2017.06.15-20.48.01:143][  0]LogConsoleResponse:Display: 
-[2017.06.15-20.48.01:254][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.06.15-20.48.01:254][  0]LogCook:Display: Mobile HDR setting 1
-[2017.06.15-20.48.02:000][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/Life/Life/Content/' took 0.01s
-[2017.06.15-20.48.02:000][  0]SourceControl: Info Source control is disabled
-[2017.06.15-20.48.02:001][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 E:/Epic Games/UE_4.16/FeaturePacks/StarterContent.upack)
-[2017.06.15-20.48.02:006][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2017.06.15-20.48.02:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2017.06.15-20.48.02:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2017.06.15-20.48.02:032][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2017.06.15-20.48.02:041][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2017.06.15-20.48.02:047][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2017.06.15-20.48.02:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2017.06.15-20.48.02:063][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2017.06.15-20.48.02:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2017.06.15-20.48.02:076][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2017.06.15-20.48.02:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2017.06.15-20.48.02:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2017.06.15-20.48.02:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Audio/Collapse01.uasset"
-[2017.06.15-20.48.02:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Audio/Collapse02.uasset"
-[2017.06.15-20.48.02:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2017.06.15-20.48.02:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Audio/Explosion01.uasset"
-[2017.06.15-20.48.02:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Audio/Explosion02.uasset"
-[2017.06.15-20.48.02:176][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2017.06.15-20.48.02:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Audio/Fire01.uasset"
-[2017.06.15-20.48.02:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2017.06.15-20.48.02:188][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2017.06.15-20.48.02:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2017.06.15-20.48.02:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Audio/Light01.uasset"
-[2017.06.15-20.48.02:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2017.06.15-20.48.02:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Audio/Light02.uasset"
-[2017.06.15-20.48.02:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2017.06.15-20.48.02:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Audio/Smoke01.uasset"
-[2017.06.15-20.48.02:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2017.06.15-20.48.02:226][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2017.06.15-20.48.02:232][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2017.06.15-20.48.02:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2017.06.15-20.48.02:245][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2017.06.15-20.48.02:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2017.06.15-20.48.02:256][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2017.06.15-20.48.02:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Audio/Steam01.uasset"
-[2017.06.15-20.48.02:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2017.06.15-20.48.02:270][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2017.06.15-20.48.02:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2017.06.15-20.48.02:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2017.06.15-20.48.02:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2017.06.15-20.48.02:288][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2017.06.15-20.48.02:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2017.06.15-20.48.02:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2017.06.15-20.48.02:307][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2017.06.15-20.48.02:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2017.06.15-20.48.02:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2017.06.15-20.48.02:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2017.06.15-20.48.02:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2017.06.15-20.48.02:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2017.06.15-20.48.02:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2017.06.15-20.48.02:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2017.06.15-20.48.02:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2017.06.15-20.48.02:382][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2017.06.15-20.48.02:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2017.06.15-20.48.02:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2017.06.15-20.48.02:399][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Maps/Minimal_Default.umap"
-[2017.06.15-20.48.02:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2017.06.15-20.48.02:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Maps/StarterMap.umap"
-[2017.06.15-20.48.02:420][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2017.06.15-20.48.02:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2017.06.15-20.48.02:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2017.06.15-20.48.02:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2017.06.15-20.48.02:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2017.06.15-20.48.02:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2017.06.15-20.48.02:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2017.06.15-20.48.02:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2017.06.15-20.48.02:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2017.06.15-20.48.02:458][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2017.06.15-20.48.02:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2017.06.15-20.48.02:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2017.06.15-20.48.02:473][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2017.06.15-20.48.02:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2017.06.15-20.48.02:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2017.06.15-20.48.02:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2017.06.15-20.48.02:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2017.06.15-20.48.02:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2017.06.15-20.48.02:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Glass.uasset"
-[2017.06.15-20.48.02:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2017.06.15-20.48.02:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2017.06.15-20.48.02:515][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2017.06.15-20.48.02:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2017.06.15-20.48.02:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2017.06.15-20.48.02:528][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2017.06.15-20.48.02:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2017.06.15-20.48.02:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2017.06.15-20.48.02:540][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2017.06.15-20.48.02:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2017.06.15-20.48.02:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2017.06.15-20.48.02:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2017.06.15-20.48.02:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2017.06.15-20.48.02:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2017.06.15-20.48.02:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2017.06.15-20.48.02:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2017.06.15-20.48.02:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2017.06.15-20.48.02:580][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2017.06.15-20.48.02:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2017.06.15-20.48.02:589][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2017.06.15-20.48.02:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2017.06.15-20.48.02:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2017.06.15-20.48.02:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2017.06.15-20.48.02:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2017.06.15-20.48.02:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2017.06.15-20.48.02:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2017.06.15-20.48.02:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Particles/P_Explosion.uasset"
-[2017.06.15-20.48.02:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Particles/P_Fire.uasset"
-[2017.06.15-20.48.02:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Particles/P_Smoke.uasset"
-[2017.06.15-20.48.02:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Particles/P_Sparks.uasset"
-[2017.06.15-20.48.02:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2017.06.15-20.48.02:642][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2017.06.15-20.48.02:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2017.06.15-20.48.02:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2017.06.15-20.48.02:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2017.06.15-20.48.02:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2017.06.15-20.48.02:664][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2017.06.15-20.48.02:668][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2017.06.15-20.48.02:673][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2017.06.15-20.48.02:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2017.06.15-20.48.02:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2017.06.15-20.48.02:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/MaterialSphere.uasset"
-[2017.06.15-20.48.02:691][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/SM_Bush.uasset"
-[2017.06.15-20.48.02:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/SM_Chair.uasset"
-[2017.06.15-20.48.02:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2017.06.15-20.48.02:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/SM_Couch.uasset"
-[2017.06.15-20.48.02:709][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/SM_Door.uasset"
-[2017.06.15-20.48.02:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2017.06.15-20.48.02:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2017.06.15-20.48.02:722][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2017.06.15-20.48.02:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2017.06.15-20.48.02:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2017.06.15-20.48.02:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2017.06.15-20.48.02:740][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2017.06.15-20.48.02:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/SM_Rock.uasset"
-[2017.06.15-20.48.02:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/SM_Shelf.uasset"
-[2017.06.15-20.48.02:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/SM_Stairs.uasset"
-[2017.06.15-20.48.02:757][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/SM_Statue.uasset"
-[2017.06.15-20.48.02:762][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/SM_TableRound.uasset"
-[2017.06.15-20.48.02:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2017.06.15-20.48.02:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2017.06.15-20.48.02:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2017.06.15-20.48.02:777][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2017.06.15-20.48.02:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2017.06.15-20.48.02:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2017.06.15-20.48.02:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2017.06.15-20.48.02:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2017.06.15-20.48.02:798][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2017.06.15-20.48.02:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2017.06.15-20.48.02:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2017.06.15-20.48.02:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2017.06.15-20.48.02:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2017.06.15-20.48.02:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2017.06.15-20.48.02:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2017.06.15-20.48.02:827][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2017.06.15-20.48.02:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2017.06.15-20.48.02:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2017.06.15-20.48.02:839][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2017.06.15-20.48.02:844][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2017.06.15-20.48.02:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2017.06.15-20.48.02:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2017.06.15-20.48.02:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2017.06.15-20.48.02:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2017.06.15-20.48.02:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2017.06.15-20.48.02:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2017.06.15-20.48.02:873][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2017.06.15-20.48.02:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2017.06.15-20.48.02:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2017.06.15-20.48.02:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2017.06.15-20.48.02:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2017.06.15-20.48.02:894][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2017.06.15-20.48.02:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2017.06.15-20.48.02:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2017.06.15-20.48.02:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2017.06.15-20.48.02:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2017.06.15-20.48.02:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2017.06.15-20.48.02:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2017.06.15-20.48.02:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2017.06.15-20.48.02:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2017.06.15-20.48.02:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2017.06.15-20.48.02:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2017.06.15-20.48.02:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2017.06.15-20.48.02:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2017.06.15-20.48.03:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2017.06.15-20.48.03:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2017.06.15-20.48.03:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2017.06.15-20.48.03:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2017.06.15-20.48.03:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2017.06.15-20.48.03:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2017.06.15-20.48.03:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2017.06.15-20.48.03:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2017.06.15-20.48.03:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2017.06.15-20.48.03:052][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2017.06.15-20.48.03:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2017.06.15-20.48.03:067][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2017.06.15-20.48.03:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2017.06.15-20.48.03:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2017.06.15-20.48.03:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2017.06.15-20.48.03:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2017.06.15-20.48.03:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2017.06.15-20.48.03:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2017.06.15-20.48.03:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2017.06.15-20.48.03:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2017.06.15-20.48.03:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2017.06.15-20.48.03:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2017.06.15-20.48.03:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2017.06.15-20.48.03:232][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2017.06.15-20.48.03:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2017.06.15-20.48.03:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2017.06.15-20.48.03:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2017.06.15-20.48.03:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Door_M.uasset"
-[2017.06.15-20.48.03:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Door_N.uasset"
-[2017.06.15-20.48.03:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2017.06.15-20.48.03:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2017.06.15-20.48.03:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2017.06.15-20.48.03:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2017.06.15-20.48.03:282][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2017.06.15-20.48.03:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2017.06.15-20.48.03:291][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2017.06.15-20.48.03:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2017.06.15-20.48.03:315][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2017.06.15-20.48.03:325][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2017.06.15-20.48.03:336][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2017.06.15-20.48.03:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2017.06.15-20.48.03:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2017.06.15-20.48.03:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2017.06.15-20.48.03:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2017.06.15-20.48.03:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2017.06.15-20.48.03:455][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2017.06.15-20.48.03:464][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2017.06.15-20.48.03:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2017.06.15-20.48.03:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2017.06.15-20.48.03:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2017.06.15-20.48.03:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2017.06.15-20.48.03:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2017.06.15-20.48.03:816][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2017.06.15-20.48.03:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2017.06.15-20.48.03:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2017.06.15-20.48.03:925][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2017.06.15-20.48.03:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2017.06.15-20.48.03:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2017.06.15-20.48.03:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2017.06.15-20.48.03:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2017.06.15-20.48.04:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2017.06.15-20.48.04:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2017.06.15-20.48.04:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2017.06.15-20.48.04:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2017.06.15-20.48.04:291][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2017.06.15-20.48.04:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2017.06.15-20.48.04:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2017.06.15-20.48.04:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2017.06.15-20.48.04:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2017.06.15-20.48.04:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2017.06.15-20.48.04:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2017.06.15-20.48.04:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2017.06.15-20.48.04:821][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2017.06.15-20.48.04:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2017.06.15-20.48.04:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2017.06.15-20.48.04:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2017.06.15-20.48.04:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2017.06.15-20.48.05:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2017.06.15-20.48.05:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2017.06.15-20.48.05:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2017.06.15-20.48.05:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Water_M.uasset"
-[2017.06.15-20.48.05:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Water_N.uasset"
-[2017.06.15-20.48.05:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2017.06.15-20.48.05:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2017.06.15-20.48.05:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2017.06.15-20.48.05:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2017.06.15-20.48.06:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2017.06.15-20.48.06:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2017.06.15-20.48.06:574][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2017.06.15-20.48.06:829][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2017.06.15-20.48.06:836][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2017.06.15-20.48.07:799][  0]LogStaticMesh: Building static mesh Floor_400x400...
-[2017.06.15-20.48.07:832][  0]LogStaticMesh: Built static mesh [0.96s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
-[2017.06.15-20.48.09:553][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:1).
-[2017.06.15-20.48.13:999][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
-[2017.06.15-20.48.14:331][  0]LogSavePackage: Save=48.59ms
-[2017.06.15-20.48.14:331][  0]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Life/Life/Saved/Floor_400x400EEFC15384FA6AA562AA147A0CA84A183.tmp' to 'C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2017.06.15-20.48.14:495][  0]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Life/Life/Content/StarterContent/Architecture/Floor_400x400.uasset
-[2017.06.15-20.48.14:495][  0]LogFeaturePack:Warning: Inserted 1 feature packs
-[2017.06.15-20.48.14:499][  0]Cmd: MAP LOAD FILE="C:/Users/Tom/Documents/GitHub/Life/Life/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.06.15-20.48.14:499][  0]LightingResults: New page: Lighting Build
-[2017.06.15-20.48.14:527][  0]MapCheck: New page: Map Check
-[2017.06.15-20.48.14:527][  0]LightingResults: New page: Lighting Build
-[2017.06.15-20.48.32:515][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.06.15-20.48.32:672][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.06.15-20.48.32:699][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.06.15-20.48.32:749][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.478ms to complete.
-[2017.06.15-20.48.32:749][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 18.251
-[2017.06.15-20.48.32:939][  0]LogCollectionManager: Loaded 0 collections in 0.000575 seconds
-[2017.06.15-20.48.33:918][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/Life/Life/Saved/Collections/' took 0.01s
-[2017.06.15-20.48.33:918][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/Life/Life/Content/Developers/Tom/Collections/' took 0.01s
-[2017.06.15-20.48.33:918][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/Life/Life/Content/Collections/' took 0.01s
-[2017.06.15-20.48.33:918][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.06.15-20.48.33:925][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2329 classes and 491 folders.
-[2017.06.15-20.48.33:968][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.06.15-20.48.34:000][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.06.15-20.48.34:030][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.06.15-20.48.34:061][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.06.15-20.48.34:065][  0]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.06.15-20.48.34:068][  0]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.06.15-20.48.34:084][  0]LogSlate: Took 0.010834 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.06.15-20.48.34:144][  0]LogRenderer: Reallocating scene render targets to support 1116x600 NumSamples 1 (Frame:1).
-[2017.06.15-20.48.34:337][  0]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.06.15-20.48.34:486][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.06.15-20.48.34:549][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2017.06.15-20.48.34:550][  0]LogLoad: (Engine Initialization) Total time: 51.86 seconds
-[2017.06.15-20.48.34:550][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.18 seconds
-[2017.06.15-20.48.34:550][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.06.15-20.48.34:550][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.06.15-20.48.34:889][  0]LogOcInput: OculusInput pre-init called
-[2017.06.15-20.48.34:903][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.15.0
-[2017.06.15-20.48.34:903][  0]LogHMD: Starting GearVRController plugin
-[2017.06.15-20.48.34:929][  0]LogAssetRegistry: Asset discovery search completed in 45.2794 seconds
-[2017.06.15-20.48.34:931][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.06.15-20.48.34:931][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000051 seconds (updated 0 objects)
-[2017.06.15-20.48.35:074][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.06.15-20.49.01:783][366]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.06.15-20.49.01:928][367]Cmd: QUIT_EDITOR
-[2017.06.15-20.49.01:952][367]LogExit: Preparing to exit.
-[2017.06.15-20.49.02:814][367]LogExit: Editor shut down
-[2017.06.15-20.49.02:817][367]LogExit: Transaction tracking system shut down
-[2017.06.15-20.49.02:873][367]LogObj: Freed 0b from 0 cluster array pools.
-[2017.06.15-20.49.02:873][367]LogExit: Object subsystem successfully closed.
-[2017.06.15-20.49.03:014][367]LogD3D11RHI: Shutdown
-[2017.06.15-20.49.03:014][367]LogD3D11RHI: CleanupD3DDevice
-[2017.06.15-20.49.03:142][367]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.06.15-20.49.03:149][367]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
-[2017.06.15-20.49.03:149][367]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
-[2017.06.15-20.49.03:149][367]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
-[2017.06.15-20.49.03:149][367]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
-[2017.06.15-20.49.03:150][367]LogDirectoryWatcher: A directory notification for 'E:/Epic Games/UE_4.16/FeaturePacks/' was aborted.
-[2017.06.15-20.49.03:150][367]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
-[2017.06.15-20.49.03:150][367]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
-[2017.06.15-20.49.03:150][367]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
-[2017.06.15-20.49.03:150][367]LogDirectoryWatcher: A directory notification for 'C:/Users/Tom/Documents/GitHub/Life/Life/Content/Collections/' was aborted.
-[2017.06.15-20.49.03:150][367]LogDirectoryWatcher: A directory notification for 'C:/Users/Tom/Documents/GitHub/Life/Life/Content/Developers/Tom/Collections/' was aborted.
-[2017.06.15-20.49.03:150][367]LogDirectoryWatcher: A directory notification for 'C:/Users/Tom/Documents/GitHub/Life/Life/Saved/Collections/' was aborted.
-[2017.06.15-20.49.03:150][367]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
-[2017.06.15-20.49.03:150][367]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
-[2017.06.15-20.49.03:150][367]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
-[2017.06.15-20.49.03:150][367]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
-[2017.06.15-20.49.03:150][367]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
-[2017.06.15-20.49.03:150][367]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
-[2017.06.15-20.49.03:150][367]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
-[2017.06.15-20.49.03:150][367]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
-[2017.06.15-20.49.03:150][367]LogModuleManager: Shutting down and abandoning module BspMode (494)
-[2017.06.15-20.49.03:150][367]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
-[2017.06.15-20.49.03:150][367]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
-[2017.06.15-20.49.03:150][367]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
-[2017.06.15-20.49.03:150][367]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
-[2017.06.15-20.49.03:150][367]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
-[2017.06.15-20.49.03:150][367]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
-[2017.06.15-20.49.03:150][367]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
-[2017.06.15-20.49.03:150][367]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
-[2017.06.15-20.49.03:150][367]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
-[2017.06.15-20.49.03:150][367]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
-[2017.06.15-20.49.03:150][367]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
-[2017.06.15-20.49.03:150][367]LogModuleManager: Shutting down and abandoning module Media (471)
-[2017.06.15-20.49.03:150][367]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
-[2017.06.15-20.49.03:150][367]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
-[2017.06.15-20.49.03:150][367]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
-[2017.06.15-20.49.03:150][367]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
-[2017.06.15-20.49.03:151][367]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
-[2017.06.15-20.49.03:151][367]LogModuleManager: Shutting down and abandoning module SessionServices (458)
-[2017.06.15-20.49.03:151][367]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
-[2017.06.15-20.49.03:151][367]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
-[2017.06.15-20.49.03:151][367]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
-[2017.06.15-20.49.03:151][367]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
-[2017.06.15-20.49.03:151][367]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
-[2017.06.15-20.49.03:151][367]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
-[2017.06.15-20.49.03:151][367]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
-[2017.06.15-20.49.03:151][367]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
-[2017.06.15-20.49.03:151][367]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
-[2017.06.15-20.49.03:151][367]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
-[2017.06.15-20.49.03:151][367]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
-[2017.06.15-20.49.03:886][367]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
-[2017.06.15-20.49.03:886][367]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
-[2017.06.15-20.49.03:886][367]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
-[2017.06.15-20.49.03:886][367]LogModuleManager: Shutting down and abandoning module MergeActors (428)
-[2017.06.15-20.49.03:886][367]LogModuleManager: Shutting down and abandoning module SizeMap (426)
-[2017.06.15-20.49.03:886][367]LogModuleManager: Shutting down and abandoning module TreeMap (424)
-[2017.06.15-20.49.03:886][367]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
-[2017.06.15-20.49.03:886][367]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
-[2017.06.15-20.49.03:886][367]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
-[2017.06.15-20.49.03:886][367]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
-[2017.06.15-20.49.03:886][367]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
-[2017.06.15-20.49.03:886][367]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
-[2017.06.15-20.49.03:886][367]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
-[2017.06.15-20.49.03:886][367]LogModuleManager: Shutting down and abandoning module XmlParser (408)
-[2017.06.15-20.49.03:886][367]LogModuleManager: Shutting down and abandoning module Blutility (406)
-[2017.06.15-20.49.03:886][367]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
-[2017.06.15-20.49.03:886][367]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
-[2017.06.15-20.49.03:886][367]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
-[2017.06.15-20.49.03:886][367]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
-[2017.06.15-20.49.03:886][367]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
-[2017.06.15-20.49.03:886][367]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
-[2017.06.15-20.49.03:886][367]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
-[2017.06.15-20.49.03:886][367]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
-[2017.06.15-20.49.03:886][367]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module AutomationController (386)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module Layers (382)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module Persona (374)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module Kismet (368)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module Toolbox (364)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module OutputLog (358)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module GammaUI (356)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module Documentation (354)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module MovieScene (350)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module Niagara (348)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module PortalServices (340)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module AIModule (334)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
-[2017.06.15-20.49.03:938][367]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module SteamVR (322)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module OculusInput (314)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module CableComponent (308)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module SourceControl (267)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
-[2017.06.15-20.49.04:050][367]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
-[2017.06.15-20.49.04:051][367]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
-[2017.06.15-20.49.04:051][367]LogModuleManager: Shutting down and abandoning module MainFrame (252)
-[2017.06.15-20.49.04:051][367]LogModuleManager: Shutting down and abandoning module HotReload (251)
-[2017.06.15-20.49.04:051][367]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
-[2017.06.15-20.49.04:051][367]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
-[2017.06.15-20.49.04:051][367]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
-[2017.06.15-20.49.04:051][367]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
-[2017.06.15-20.49.04:051][367]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
-[2017.06.15-20.49.04:051][367]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
-[2017.06.15-20.49.04:152][367]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
-[2017.06.15-20.49.04:252][367]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
-[2017.06.15-20.49.04:252][367]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
-[2017.06.15-20.49.04:252][367]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
-[2017.06.15-20.49.04:252][367]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
-[2017.06.15-20.49.04:252][367]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
-[2017.06.15-20.49.04:252][367]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
-[2017.06.15-20.49.04:253][367]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
-[2017.06.15-20.49.04:253][367]LogModuleManager: Shutting down and abandoning module Paper2D (218)
-[2017.06.15-20.49.04:253][367]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
-[2017.06.15-20.49.04:253][367]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
-[2017.06.15-20.49.04:253][367]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
-[2017.06.15-20.49.04:253][367]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
-[2017.06.15-20.49.04:253][367]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
-[2017.06.15-20.49.04:253][367]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
-[2017.06.15-20.49.04:253][367]LogModuleManager: Shutting down and abandoning module VREditor (204)
-[2017.06.15-20.49.04:253][367]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
-[2017.06.15-20.49.04:253][367]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
-[2017.06.15-20.49.04:253][367]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
-[2017.06.15-20.49.04:253][367]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
-[2017.06.15-20.49.04:253][367]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
-[2017.06.15-20.49.04:253][367]LogModuleManager: Shutting down and abandoning module UMG (192)
-[2017.06.15-20.49.04:253][367]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
-[2017.06.15-20.49.04:253][367]LogModuleManager: Shutting down and abandoning module Sequencer (190)
-[2017.06.15-20.49.04:253][367]LogModuleManager: Shutting down and abandoning module AssetTools (188)
-[2017.06.15-20.49.04:253][367]LogModuleManager: Shutting down and abandoning module MessageLog (187)
-[2017.06.15-20.49.04:253][367]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
-[2017.06.15-20.49.04:254][367]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
-[2017.06.15-20.49.04:254][367]LogModuleManager: Shutting down and abandoning module Slate (178)
-[2017.06.15-20.49.04:254][367]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
-[2017.06.15-20.49.04:255][367]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
-[2017.06.15-20.49.04:255][367]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
-[2017.06.15-20.49.04:255][367]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
-[2017.06.15-20.49.04:255][367]LogModuleManager: Shutting down and abandoning module Networking (168)
-[2017.06.15-20.49.04:255][367]LogModuleManager: Shutting down and abandoning module Core (164)
-[2017.06.15-20.49.04:255][367]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
-[2017.06.15-20.49.04:355][367]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.06.15-20.49.04:355][367]LogDirectoryWatcher: A directory notification for 'C:/Users/Tom/Documents/GitHub/Life/Life/Content/' was aborted.
-[2017.06.15-20.49.04:355][367]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.06.15-20.49.04:355][367]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
-[2017.06.15-20.49.04:358][367]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
-[2017.06.15-20.49.04:358][367]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
-[2017.06.15-20.49.04:358][367]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
-[2017.06.15-20.49.04:358][367]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
-[2017.06.15-20.49.04:358][367]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
-[2017.06.15-20.49.04:358][367]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
-[2017.06.15-20.49.04:358][367]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
-[2017.06.15-20.49.04:358][367]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
-[2017.06.15-20.49.04:358][367]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2017.06.15-20.49.04:764][367]LogDerivedDataCache: Shutdown
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module OculusRift (56)
-[2017.06.15-20.49.04:764][367]LogHMD: Oculus shutdown.
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module GearVRController (54)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module GearVR (52)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.06.15-20.49.04:764][367]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.06.15-20.49.04:764][367]LogOnline:Display: Unloading online subsystem: NULL
-[2017.06.15-20.49.04:765][367]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.06.15-20.49.04:765][367]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.06.15-20.49.04:765][367]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.06.15-20.49.04:765][367]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1D4E89E6-4E0A-2632-ABD3-ABAF32F12C07%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=9507d6a347edc37d65474c8629981c28%7Ccdc8881e81874f7b9309baf36bcfe432%7Cf9f02938-7094-4537-917c-c69c45de1e4a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.06.15-20.49.04:789][367]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.06.15-20.49.04:790][367]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
-[2017.06.15-20.49.04:790][367]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
-[2017.06.15-20.49.04:790][367]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
-[2017.06.15-20.49.04:790][367]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2017.06.15-20.49.04:790][367]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2017.06.15-20.49.04:790][367]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2017.06.15-20.49.04:790][367]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2017.06.15-20.49.04:790][367]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2017.06.15-20.49.04:791][367]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2017.06.15-20.49.04:791][367]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2017.06.15-20.49.04:791][367]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2017.06.15-20.49.04:791][367]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2017.06.15-20.49.04:791][367]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2017.06.15-20.49.04:791][367]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2017.06.15-20.49.04:791][367]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2017.06.15-20.49.04:791][367]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.06.15-20.49.04:791][367]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.06.15-20.49.04:791][367]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.06.15-20.49.04:792][367]LogExit: Exiting.
-[2017.06.15-20.49.04:801][367]Log file closed, 06/15/17 21:49:04
+[2017.06.16-14.43.42:412][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.16-14.43.42:412][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.16-14.43.42:574][  0]LogInit: Computer: RAMSAY
+[2017.06.16-14.43.42:574][  0]LogInit: User: Tom
+[2017.06.16-14.43.42:574][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.06.16-14.43.42:574][  0]LogInit: High frequency timer resolution =3.903981 MHz
+[2017.06.16-14.43.42:574][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.06.16-14.43.42:574][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.16-14.43.42:574][  0]LogMemory: Process Physical Memory: 278.34 MB used, 278.34 MB peak
+[2017.06.16-14.43.42:574][  0]LogMemory: Process Virtual Memory: 264.28 MB used, 264.28 MB peak
+[2017.06.16-14.43.42:574][  0]LogMemory: Physical Memory: 6729.64 MB used,  9596.44 MB free, 16326.08 MB total
+[2017.06.16-14.43.42:574][  0]LogMemory: Virtual Memory: 676.18 MB used,  9596.44 MB free, 134217728.00 MB total
+[2017.06.16-14.43.42:713][  0]LogInit: Using OS detected language (en-US).
+[2017.06.16-14.43.42:713][  0]LogInit: Using OS detected locale (en-GB).
+[2017.06.16-14.43.42:718][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.16-14.43.43:671][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.16-14.43.44:519][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.06.16-14.43.44:519][  0]LogD3D11RHI:       2016/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.06.16-14.43.44:522][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.16-14.43.44:522][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.16-14.43.44:522][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.16-14.43.44:527][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.16-14.43.44:527][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.16-14.43.44:527][  0]LogWindows: EnumDisplayDevices:
+[2017.06.16-14.43.44:527][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.06.16-14.43.44:527][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2017.06.16-14.43.44:527][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.06.16-14.43.44:528][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.06.16-14.43.44:528][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.16-14.43.44:528][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.06.16-14.43.44:528][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.06.16-14.43.44:528][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.06.16-14.43.44:528][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.16-14.43.45:030][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.16-14.43.45:059][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.16-14.43.45:156][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (C:/Users/Tom/Documents/GitHub/Life/Life/Intermediate/Shaders/WorkingDirectory/8916/).
+[2017.06.16-14.43.45:156][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tom/AppData/Local/Temp/UnrealShaderWorkingDir/B91A53274A95FB4EF86DE9900F04E8A3/'.
+[2017.06.16-14.43.45:156][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.16-14.43.46:214][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.16-14.43.46:310][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.16-14.43.46:390][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.16-14.43.46:451][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.16-14.43.46:500][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.16-14.43.46:546][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.16-14.43.46:620][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.16-14.43.46:670][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.16-14.43.46:708][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.16-14.43.46:752][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.16-14.43.46:801][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.16-14.43.46:851][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.16-14.43.46:911][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.16-14.43.46:965][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.16-14.43.47:032][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.16-14.43.47:113][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.16-14.43.47:113][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.16-14.43.47:146][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.16-14.43.47:226][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.16-14.43.47:248][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.16-14.43.47:290][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.16-14.43.47:333][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.16-14.43.47:376][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.16-14.43.47:415][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.16-14.43.47:415][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.16-14.43.47:791][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.16-14.43.47:890][  0]LogDerivedDataCache: Loaded boot cache 0.10s 90MB C:/Users/Tom/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.16-14.43.47:890][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tom/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.16-14.43.47:890][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Tom/Documents/GitHub/Life/Life/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.16-14.43.47:890][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.16-14.43.47:890][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Tom/Documents/GitHub/Life/Life/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.16-14.43.47:890][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.16-14.43.47:910][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.16-14.43.47:923][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tom/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.16-14.43.47:933][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.16-14.43.47:933][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.16-14.43.47:934][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.16-14.43.47:934][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.16-14.43.48:362][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.16-14.43.48:448][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.16-14.43.48:665][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.16-14.43.48:708][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.16-14.43.48:745][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.16-14.43.48:745][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.16-14.43.48:745][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.16-14.43.49:314][  0]LogNetVersion: Life , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 205495349)
+[2017.06.16-14.43.49:382][  0]LogAssetRegistry: FAssetRegistry took 0.0273 seconds to start up
+[2017.06.16-14.43.49:476][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.075680 seconds
+[2017.06.16-14.43.49:485][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.16-14.43.49:485][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.06.16-14.43.49:485][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.16-14.43.49:582][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.16-14.43.51:630][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.16-14.43.51:659][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.16-14.43.52:022][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.16-14.43.52:293][  0]SourceControl: Info Source control is disabled
+[2017.06.16-14.43.52:334][  0]SourceControl: Info Source control is disabled
+[2017.06.16-14.43.52:376][  0]SourceControl: Info Source control is disabled
+[2017.06.16-14.43.52:429][  0]SourceControl: Info Source control is disabled
+[2017.06.16-14.43.52:871][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.16-14.43.53:293][  0]LogEngine: Initializing Engine...
+[2017.06.16-14.43.58:980][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.06.16-14.43.58:980][  0]LogHMD: Oculus plugin initialized. Version: 4.16.1-3466753+++UE4+Release-4.16, LibOVR: 1.15.0, SDK: 1.12.0, built May 31 2017, 02:11:10
+[2017.06.16-14.43.59:157][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.16-14.43.59:157][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.16-14.43.59:249][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.16-14.43.59:267][  0]LogInit: XAudio2 using 'Headset Earphone (2- Microsoft LifeChat LX-3000)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.16-14.43.59:278][  0]LogInit: FAudioDevice initialized.
+[2017.06.16-14.43.59:318][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Tom/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.16-14.43.59:332][  0]LogInit: Texture streaming: Enabled
+[2017.06.16-14.43.59:391][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.16-14.43.59:542][  0]LogInit: Transaction tracking system initialized
+[2017.06.16-14.43.59:749][  0]BlueprintLog: New page: Editor Load
+[2017.06.16-14.44.00:357][  0]LocalizationService: Info Localization service is disabled
+[2017.06.16-14.44.00:808][  0]LogConsoleResponse:Display: 
+[2017.06.16-14.44.00:922][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.16-14.44.00:922][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.16-14.44.01:359][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/Life/Life/Content/' took 0.02s
+[2017.06.16-14.44.01:587][  0]SourceControl: Info Source control is disabled
+[2017.06.16-14.44.01:587][  0]Cmd: MAP LOAD FILE="C:/Users/Tom/Documents/GitHub/Life/Life/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.16-14.44.01:587][  0]LightingResults: New page: Lighting Build
+[2017.06.16-14.44.01:613][  0]MapCheck: New page: Map Check
+[2017.06.16-14.44.01:613][  0]LightingResults: New page: Lighting Build
+[2017.06.16-14.44.01:861][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.16-14.44.01:867][  0]LogSkinnedMeshComp:Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
+[2017.06.16-14.44.01:867][  0]LogSkinnedMeshComp:Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
+[2017.06.16-14.44.01:867][  0]LogSkinnedMeshComp:Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
+[2017.06.16-14.44.01:868][  0]LogSkinnedMeshComp:Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
+[2017.06.16-14.44.01:870][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.16-14.44.01:895][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.16-14.44.01:947][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.679ms to complete.
+[2017.06.16-14.44.01:947][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.360
+[2017.06.16-14.44.02:079][  0]LogCollectionManager: Loaded 0 collections in 0.000911 seconds
+[2017.06.16-14.44.02:146][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/Life/Life/Saved/Collections/' took 0.01s
+[2017.06.16-14.44.02:146][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/Life/Life/Content/Developers/Tom/Collections/' took 0.01s
+[2017.06.16-14.44.02:146][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/Life/Life/Content/Collections/' took 0.01s
+[2017.06.16-14.44.02:146][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.06.16-14.44.02:153][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2329 classes and 491 folders.
+[2017.06.16-14.44.02:197][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.16-14.44.02:231][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.16-14.44.02:260][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.16-14.44.02:288][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.16-14.44.02:291][  0]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.16-14.44.02:293][  0]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.16-14.44.02:297][  0]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.16-14.44.02:376][  0]LogRenderer: Reallocating scene render targets to support 1116x600 NumSamples 1 (Frame:1).
+[2017.06.16-14.44.02:507][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.16-14.44.02:556][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.16-14.44.02:556][  0]LogLoad: (Engine Initialization) Total time: 22.53 seconds
+[2017.06.16-14.44.02:556][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.09 seconds
+[2017.06.16-14.44.02:556][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.16-14.44.02:556][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.16-14.44.02:895][  0]LogOcInput: OculusInput pre-init called
+[2017.06.16-14.44.02:906][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.15.0
+[2017.06.16-14.44.02:906][  0]LogHMD: Starting GearVRController plugin
+[2017.06.16-14.44.02:919][  0]LogAssetRegistry: Asset discovery search completed in 13.5591 seconds
+[2017.06.16-14.44.02:921][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.06.16-14.44.02:921][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2017.06.16-14.44.02:923][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.16-14.44.02:956][  0]LogSlate: Took 0.000263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.16-14.53.26:206][696]Cmd: QUIT_EDITOR
+[2017.06.16-14.53.26:218][696]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.16-14.53.26:224][696]LogExit: Preparing to exit.
+[2017.06.16-14.53.26:900][696]LogExit: Editor shut down
+[2017.06.16-14.53.26:903][696]LogExit: Transaction tracking system shut down
+[2017.06.16-14.53.26:949][696]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.16-14.53.26:949][696]LogExit: Object subsystem successfully closed.
+[2017.06.16-14.53.26:962][696]LogD3D11RHI: Shutdown
+[2017.06.16-14.53.26:962][696]LogD3D11RHI: CleanupD3DDevice
+[2017.06.16-14.53.27:018][696]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.16-14.53.27:024][696]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.06.16-14.53.27:024][696]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.06.16-14.53.27:024][696]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.06.16-14.53.27:024][696]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.06.16-14.53.27:024][696]LogDirectoryWatcher: A directory notification for 'E:/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.06.16-14.53.27:025][696]LogDirectoryWatcher: A directory notification for 'C:/Users/Tom/Documents/GitHub/Life/Life/Content/Collections/' was aborted.
+[2017.06.16-14.53.27:025][696]LogDirectoryWatcher: A directory notification for 'C:/Users/Tom/Documents/GitHub/Life/Life/Content/Developers/Tom/Collections/' was aborted.
+[2017.06.16-14.53.27:025][696]LogDirectoryWatcher: A directory notification for 'C:/Users/Tom/Documents/GitHub/Life/Life/Saved/Collections/' was aborted.
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.06.16-14.53.27:025][696]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.06.16-14.53.27:026][696]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.06.16-14.53.27:026][696]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.06.16-14.53.27:026][696]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.06.16-14.53.27:026][696]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.06.16-14.53.27:026][696]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.06.16-14.53.27:026][696]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.06.16-14.53.27:675][696]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.06.16-14.53.27:676][696]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.06.16-14.53.27:676][696]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.06.16-14.53.27:676][696]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.06.16-14.53.27:676][696]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.06.16-14.53.27:676][696]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.06.16-14.53.27:676][696]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.06.16-14.53.27:676][696]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.06.16-14.53.27:676][696]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.06.16-14.53.27:676][696]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.06.16-14.53.27:676][696]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.06.16-14.53.27:676][696]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.06.16-14.53.27:676][696]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.06.16-14.53.27:676][696]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.06.16-14.53.27:676][696]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.06.16-14.53.27:676][696]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.06.16-14.53.27:676][696]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.06.16-14.53.27:676][696]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.06.16-14.53.27:676][696]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.06.16-14.53.27:676][696]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.06.16-14.53.27:676][696]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.06.16-14.53.27:676][696]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.06.16-14.53.27:676][696]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.06.16-14.53.27:676][696]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.06.16-14.53.27:729][696]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.06.16-14.53.27:737][696]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.06.16-14.53.27:738][696]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.06.16-14.53.27:738][696]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.06.16-14.53.27:738][696]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.06.16-14.53.27:738][696]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.06.16-14.53.27:738][696]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.06.16-14.53.27:738][696]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.06.16-14.53.27:738][696]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.06.16-14.53.27:738][696]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.06.16-14.53.27:738][696]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.06.16-14.53.27:838][696]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.06.16-14.53.27:939][696]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.06.16-14.53.27:939][696]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.06.16-14.53.27:939][696]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.06.16-14.53.27:939][696]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.06.16-14.53.27:939][696]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.06.16-14.53.27:939][696]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.06.16-14.53.27:939][696]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.06.16-14.53.27:939][696]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.06.16-14.53.27:940][696]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.06.16-14.53.27:940][696]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.06.16-14.53.27:940][696]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.06.16-14.53.27:940][696]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.06.16-14.53.27:940][696]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.06.16-14.53.27:940][696]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.06.16-14.53.27:940][696]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.06.16-14.53.27:940][696]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.06.16-14.53.27:940][696]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.06.16-14.53.27:940][696]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.06.16-14.53.27:940][696]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.06.16-14.53.27:940][696]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.06.16-14.53.27:940][696]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.06.16-14.53.27:940][696]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.06.16-14.53.27:940][696]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.06.16-14.53.27:940][696]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.06.16-14.53.27:940][696]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.06.16-14.53.27:940][696]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.06.16-14.53.27:940][696]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.06.16-14.53.27:940][696]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.06.16-14.53.27:940][696]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.06.16-14.53.27:942][696]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.06.16-14.53.27:942][696]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.06.16-14.53.27:942][696]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.06.16-14.53.27:942][696]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.06.16-14.53.27:942][696]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.06.16-14.53.27:942][696]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.06.16-14.53.28:104][696]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.16-14.53.28:104][696]LogDirectoryWatcher: A directory notification for 'C:/Users/Tom/Documents/GitHub/Life/Life/Content/' was aborted.
+[2017.06.16-14.53.28:105][696]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.16-14.53.28:105][696]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.06.16-14.53.28:107][696]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.06.16-14.53.28:108][696]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.06.16-14.53.28:108][696]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.06.16-14.53.28:108][696]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.06.16-14.53.28:108][696]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.06.16-14.53.28:108][696]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.06.16-14.53.28:108][696]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.06.16-14.53.28:108][696]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.06.16-14.53.28:108][696]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.06.16-14.53.28:203][696]LogDerivedDataCache: Shutdown
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.06.16-14.53.28:203][696]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.06.16-14.53.28:204][696]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.06.16-14.53.28:204][696]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.06.16-14.53.28:204][696]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.06.16-14.53.28:204][696]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.06.16-14.53.28:204][696]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.06.16-14.53.28:204][696]LogHMD: Oculus shutdown.
+[2017.06.16-14.53.28:204][696]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.06.16-14.53.28:204][696]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.06.16-14.53.28:204][696]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.06.16-14.53.28:204][696]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.06.16-14.53.28:204][696]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.06.16-14.53.28:204][696]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.16-14.53.28:204][696]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.06.16-14.53.28:204][696]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.06.16-14.53.28:204][696]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.16-14.53.28:204][696]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76FAA7C7-4217-6D60-C3A2-289996EDF07D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=9507d6a347edc37d65474c8629981c28%7Ccdc8881e81874f7b9309baf36bcfe432%7Cf9f02938-7094-4537-917c-c69c45de1e4a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.16-14.53.28:232][696]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.06.16-14.53.28:233][696]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.06.16-14.53.28:233][696]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.06.16-14.53.28:233][696]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.06.16-14.53.28:233][696]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.16-14.53.28:233][696]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.16-14.53.28:234][696]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.16-14.53.28:234][696]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.16-14.53.28:234][696]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.16-14.53.28:234][696]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.16-14.53.28:234][696]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.16-14.53.28:234][696]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.16-14.53.28:234][696]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.16-14.53.28:234][696]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.16-14.53.28:234][696]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.16-14.53.28:234][696]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.16-14.53.28:234][696]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.16-14.53.28:234][696]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.16-14.53.28:234][696]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.16-14.53.28:235][696]LogExit: Exiting.
+[2017.06.16-14.53.28:245][696]Log file closed, 06/16/17 15:53:28
