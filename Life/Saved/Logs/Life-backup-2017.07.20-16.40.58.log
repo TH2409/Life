@@ -1,0 +1,1499 @@
+﻿Log file open, 07/20/17 11:37:39
+LogInit:Display: Running engine for game: Life
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(753993280) SRandInit(753993281).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.119675
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.16.0(build = 409268) feature version = 0. Client runs version (prod = 1).1.16.0(build = 409268) feature version = 0
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: E:/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.20-10.37.40:612][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.20-10.37.40:612][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.20-10.37.40:685][  0]LogInit: Computer: RAMSAY
+[2017.07.20-10.37.40:686][  0]LogInit: User: Tom
+[2017.07.20-10.37.40:686][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.07.20-10.37.40:686][  0]LogInit: High frequency timer resolution =3.903988 MHz
+[2017.07.20-10.37.40:686][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.07.20-10.37.40:686][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.20-10.37.40:686][  0]LogMemory: Process Physical Memory: 278.60 MB used, 278.60 MB peak
+[2017.07.20-10.37.40:686][  0]LogMemory: Process Virtual Memory: 264.27 MB used, 264.27 MB peak
+[2017.07.20-10.37.40:686][  0]LogMemory: Physical Memory: 6542.71 MB used,  9783.36 MB free, 16326.08 MB total
+[2017.07.20-10.37.40:686][  0]LogMemory: Virtual Memory: 665.82 MB used,  9783.36 MB free, 134217728.00 MB total
+[2017.07.20-10.37.41:213][  0]LogInit: Using OS detected language (en-US).
+[2017.07.20-10.37.41:213][  0]LogInit: Using OS detected locale (en-GB).
+[2017.07.20-10.37.41:316][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.07.20-10.37.42:930][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.20-10.37.43:431][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.07.20-10.37.43:431][  0]LogD3D11RHI:       2016/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.07.20-10.37.43:439][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.20-10.37.43:439][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.20-10.37.43:439][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.20-10.37.43:444][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.20-10.37.43:444][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.20-10.37.43:444][  0]LogWindows: EnumDisplayDevices:
+[2017.07.20-10.37.43:444][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.07.20-10.37.43:444][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2017.07.20-10.37.43:445][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.07.20-10.37.43:445][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.07.20-10.37.43:445][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.07.20-10.37.43:445][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.07.20-10.37.43:445][  0]LogD3D11RHI:   Driver Version: 382.53 (internal:22.21.13.8253, unified:382.53)
+[2017.07.20-10.37.43:445][  0]LogD3D11RHI:      Driver Date: 6-7-2017
+[2017.07.20-10.37.43:445][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.20-10.37.43:957][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.20-10.37.44:197][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.07.20-10.37.44:305][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (C:/Users/Tom/Documents/GitHub/Life/Life/Intermediate/Shaders/WorkingDirectory/2612/).
+[2017.07.20-10.37.44:305][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tom/AppData/Local/Temp/UnrealShaderWorkingDir/C05E8745445535B19D24DE81AB253D4B/'.
+[2017.07.20-10.37.44:326][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.20-10.37.48:130][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.20-10.37.48:174][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.20-10.37.48:219][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.20-10.37.48:266][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.20-10.37.48:333][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.20-10.37.48:372][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.20-10.37.48:411][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.20-10.37.48:453][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.20-10.37.48:495][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.20-10.37.48:552][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.20-10.37.48:596][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.20-10.37.48:642][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.20-10.37.48:685][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.20-10.37.48:729][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.20-10.37.48:769][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.20-10.37.48:849][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.20-10.37.48:849][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.20-10.37.48:888][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.20-10.37.49:016][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.20-10.37.49:046][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.20-10.37.49:090][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.20-10.37.49:135][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.20-10.37.49:178][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.20-10.37.49:242][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.20-10.37.49:242][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.20-10.37.50:250][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.20-10.37.50:649][  0]LogDerivedDataCache: Loaded boot cache 0.40s 90MB C:/Users/Tom/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.20-10.37.50:649][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tom/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.20-10.37.50:649][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Tom/Documents/GitHub/Life/Life/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.20-10.37.50:649][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.20-10.37.50:649][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Tom/Documents/GitHub/Life/Life/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.20-10.37.50:649][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.20-10.37.50:692][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.20-10.37.50:706][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tom/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.20-10.37.50:827][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.20-10.37.50:882][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.20-10.37.50:896][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.20-10.37.50:897][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.20-10.37.55:123][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.20-10.37.55:721][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.20-10.37.56:157][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.20-10.37.56:281][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.20-10.37.56:343][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.20-10.37.56:343][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.20-10.37.56:343][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.20-10.37.59:123][  0]LogNetVersion: Life , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 205495349)
+[2017.07.20-10.37.59:268][  0]LogAssetRegistry: FAssetRegistry took 0.0249 seconds to start up
+[2017.07.20-10.37.59:334][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.051382 seconds
+[2017.07.20-10.37.59:340][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.20-10.37.59:340][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.07.20-10.37.59:340][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.20-10.37.59:389][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.20-10.38.15:269][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.20-10.38.15:324][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.20-10.38.16:477][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.20-10.38.17:145][  0]SourceControl: Info Source control is disabled
+[2017.07.20-10.38.17:592][  0]SourceControl: Info Source control is disabled
+[2017.07.20-10.38.17:687][  0]SourceControl: Info Source control is disabled
+[2017.07.20-10.38.17:783][  0]SourceControl: Info Source control is disabled
+[2017.07.20-10.38.18:957][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.20-10.38.20:038][  0]LogEngine: Initializing Engine...
+[2017.07.20-10.38.26:911][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.07.20-10.38.26:911][  0]LogHMD: Oculus plugin initialized. Version: 4.16.2-3514769+++UE4+Release-4.16, LibOVR: 1.16.0, SDK: 1.12.0, built Jun 29 2017, 02:10:56
+[2017.07.20-10.38.28:591][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.20-10.38.28:591][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.20-10.38.29:213][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.20-10.38.29:337][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-10.38.29:354][  0]LogInit: FAudioDevice initialized.
+[2017.07.20-10.38.29:396][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Tom/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.20-10.38.29:402][  0]LogInit: Texture streaming: Enabled
+[2017.07.20-10.38.29:574][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.20-10.38.29:948][  0]LogInit: Transaction tracking system initialized
+[2017.07.20-10.38.30:383][  0]BlueprintLog: New page: Editor Load
+[2017.07.20-10.38.31:847][  0]LocalizationService: Info Localization service is disabled
+[2017.07.20-10.38.32:781][  0]LogConsoleResponse:Display: 
+[2017.07.20-10.38.34:198][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/Life/Life/Content/' took 0.02s
+[2017.07.20-10.38.34:198][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.20-10.38.34:198][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.20-10.38.35:990][  0]SourceControl: Info Source control is disabled
+[2017.07.20-10.38.36:005][  0]Cmd: MAP LOAD FILE="C:/Users/Tom/Documents/GitHub/Life/Life/Content/Levels/LifeDemo.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.20-10.38.36:010][  0]LightingResults: New page: Lighting Build
+[2017.07.20-10.38.36:167][  0]MapCheck: New page: Map Check
+[2017.07.20-10.38.36:167][  0]LightingResults: New page: Lighting Build
+[2017.07.20-10.38.37:747][  0]LogAIModule: Creating AISystem for world LifeDemo
+[2017.07.20-10.38.38:065][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.20-10.38.38:111][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.20-10.38.38:182][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 65.198ms to complete.
+[2017.07.20-10.38.38:182][  0]LogFileHelpers: Loading map 'LifeDemo' took 2.192
+[2017.07.20-10.38.38:606][  0]LogCollectionManager: Loaded 0 collections in 0.001285 seconds
+[2017.07.20-10.38.38:677][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/Life/Life/Saved/Collections/' took 0.01s
+[2017.07.20-10.38.38:677][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/Life/Life/Content/Developers/Tom/Collections/' took 0.01s
+[2017.07.20-10.38.38:677][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/Life/Life/Content/Collections/' took 0.01s
+[2017.07.20-10.38.38:677][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.07.20-10.38.38:684][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2329 classes and 491 folders.
+[2017.07.20-10.38.38:726][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.07.20-10.38.39:322][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.07.20-10.38.39:384][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.07.20-10.38.39:576][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.20-10.38.39:612][  0]LogSlate: Took 0.015866 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.20-10.38.39:622][  0]LogSlate: Took 0.008329 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.20-10.38.39:661][  0]LogSlate: Took 0.019148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.20-10.38.39:883][  0]LogRenderer: Reallocating scene render targets to support 1116x600 NumSamples 1 (Frame:1).
+[2017.07.20-10.38.40:152][  0]LogSlate: Took 0.013506 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.20-10.38.40:223][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.20-10.38.40:303][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.07.20-10.38.40:304][  0]LogLoad: (Engine Initialization) Total time: 63.87 seconds
+[2017.07.20-10.38.40:304][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.35 seconds
+[2017.07.20-10.38.40:304][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.07.20-10.38.40:304][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.07.20-10.38.40:313][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.20-10.38.40:314][  0]LogOcInput: OculusInput pre-init called
+[2017.07.20-10.38.40:325][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.16.0
+[2017.07.20-10.38.40:325][  0]LogHMD: Starting GearVRController plugin
+[2017.07.20-10.38.40:398][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.20-10.38.40:514][  1]LogAssetRegistry: Asset discovery search completed in 41.2675 seconds
+[2017.07.20-10.38.40:515][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.07.20-10.38.40:515][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
+[2017.07.20-10.55.26:935][304]LogEditorViewport: Clicking on Actor (LMB): BP_FatherMemory_C (BP_FatherMemory2)
+[2017.07.20-10.55.32:486][909]LogEditorActor: Deleted Actor: BP_FatherMemory_C
+[2017.07.20-10.55.32:486][909]LogEditorActor: Deleted Actor: BP_FatherMemory_C
+[2017.07.20-10.55.32:487][909]LogEditorActor: Deleted Actor: BP_FatherMemory_C
+[2017.07.20-10.55.32:487][909]LogEditorActor: Deleted Actor: BP_FatherMemory_C
+[2017.07.20-10.55.32:487][909]LogEditorActor: Deleted Actor: BP_FatherMemory_C
+[2017.07.20-10.55.32:487][909]LogEditorActor: Deleted Actor: BP_FatherMemory_C
+[2017.07.20-10.55.32:487][909]LogEditorActor: Deleted Actor: BP_FatherMemory_C
+[2017.07.20-10.55.32:488][909]LogEditorActor: Deleted Actor: BP_FatherMemory_C
+[2017.07.20-10.55.32:488][909]LogEditorActor: Deleted Actor: BP_FatherMemory_C
+[2017.07.20-10.55.32:488][909]LogEditorActor: Deleted Actor: BP_FatherMemory_C
+[2017.07.20-10.55.32:488][909]LogEditorActor: Deleted Actor: BP_MemoryFlower_C
+[2017.07.20-10.55.32:498][909]LogEditorActor: Deleted 11 Actors (0.037 secs)
+[2017.07.20-10.55.36:084][300]LogEditorViewport: Clicking on Actor (LMB): BP_WaterFall_C (BP_WaterFall)
+[2017.07.20-10.55.43:449][147]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.20-10.55.43:512][147]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-10.55.43:512][147]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-10.55.43:528][147]PIE: New page: PIE session: LifeDemo (20 Jul 2017 12:55:43)
+[2017.07.20-10.55.43:528][147]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LifeDemo
+[2017.07.20-10.55.43:594][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065826s)
+[2017.07.20-10.55.43:595][147]LogAIModule: Creating AISystem for world LifeDemo
+[2017.07.20-10.55.43:595][147]LogPlayLevel: PIE: World Init took: (0.000689s)
+[2017.07.20-10.55.43:595][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LifeDemo.LifeDemo to /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo (0.066853s)
+[2017.07.20-10.55.43:612][147]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-10.55.43:624][147]LogInit: FAudioDevice initialized.
+[2017.07.20-10.55.43:749][147]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.20-10.55.43:767][147]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo up for play (max tick rate 0) at 2017.07.20-11.55.43
+[2017.07.20-10.55.43:768][147]LogWorld: Bringing up level for play took: 0.010939
+[2017.07.20-10.55.43:844][147]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.07.20-10.55.43:847][147]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_LifeDemo 0.92
+[2017.07.20-10.55.43:847][147]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-10.55.44:383][203]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-10.55.44:422][203]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-10.55.48:018][612]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-10.55.48:018][612]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-10.55.48:018][612]PIE: New page: SIE session: LifeDemo (20 Jul 2017 12:55:48)
+[2017.07.20-10.55.48:018][612]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LifeDemo
+[2017.07.20-10.55.48:086][612]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067570s)
+[2017.07.20-10.55.48:086][612]LogAIModule: Creating AISystem for world LifeDemo
+[2017.07.20-10.55.48:086][612]LogPlayLevel: PIE: World Init took: (0.000560s)
+[2017.07.20-10.55.48:087][612]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LifeDemo.LifeDemo to /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo (0.068435s)
+[2017.07.20-10.55.48:105][612]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-10.55.48:114][612]LogInit: FAudioDevice initialized.
+[2017.07.20-10.55.48:159][612]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.20-10.55.48:169][612]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo up for play (max tick rate 0) at 2017.07.20-11.55.48
+[2017.07.20-10.55.48:170][612]LogWorld: Bringing up level for play took: 0.009572
+[2017.07.20-10.55.48:171][612]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_LifeDemo -0.756
+[2017.07.20-10.55.48:226][612]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-10.56.02:104][639]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-10.56.02:143][639]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-10.56.05:913][ 78]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-10.56.05:913][ 78]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-10.56.05:914][ 78]PIE: New page: PIE session: LifeDemo (20 Jul 2017 12:56:05)
+[2017.07.20-10.56.05:914][ 78]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LifeDemo
+[2017.07.20-10.56.05:981][ 78]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067845s)
+[2017.07.20-10.56.05:982][ 78]LogAIModule: Creating AISystem for world LifeDemo
+[2017.07.20-10.56.05:982][ 78]LogPlayLevel: PIE: World Init took: (0.000748s)
+[2017.07.20-10.56.05:982][ 78]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LifeDemo.LifeDemo to /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo (0.068955s)
+[2017.07.20-10.56.06:000][ 78]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-10.56.06:009][ 78]LogInit: FAudioDevice initialized.
+[2017.07.20-10.56.06:041][ 78]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.20-10.56.06:051][ 78]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo up for play (max tick rate 0) at 2017.07.20-11.56.06
+[2017.07.20-10.56.06:052][ 78]LogWorld: Bringing up level for play took: 0.009092
+[2017.07.20-10.56.06:053][ 78]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_LifeDemo 1.126
+[2017.07.20-10.56.06:053][ 78]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-10.56.08:332][343]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-10.56.08:393][343]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-10.56.27:370][580]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.20-10.56.36:338][645]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.20-10.56.36:364][645]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/LifeDemo" FILE="C:/Users/Tom/Documents/GitHub/Life/Life/Saved/Autosaves/Game/Levels/LifeDemo_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.07.20-10.56.37:489][645]LogSavePackage: Save=1094.64ms
+[2017.07.20-10.56.37:489][645]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Life/Life/Saved/LifeDemo_Auto1D3FE5D7246D11DE8F6BCFC857626FF3C.tmp' to 'C:/Users/Tom/Documents/GitHub/Life/Life/Saved/Autosaves/Game/Levels/LifeDemo_Auto1.umap'
+[2017.07.20-10.56.37:492][645]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Life/Life/Saved/Autosaves/Game/Levels/LifeDemo_Auto1.umap
+[2017.07.20-10.56.37:494][645]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/LifeDemo' took 1.142
+[2017.07.20-10.56.37:494][645]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.142
+[2017.07.20-10.59.10:823][223]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.20-10.59.10:833][223]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-10.59.10:833][223]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-10.59.10:833][223]PIE: New page: PIE session: LifeDemo (20 Jul 2017 12:59:10)
+[2017.07.20-10.59.10:833][223]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LifeDemo
+[2017.07.20-10.59.10:908][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074565s)
+[2017.07.20-10.59.10:908][223]LogAIModule: Creating AISystem for world LifeDemo
+[2017.07.20-10.59.10:908][223]LogPlayLevel: PIE: World Init took: (0.000809s)
+[2017.07.20-10.59.10:909][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LifeDemo.LifeDemo to /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo (0.075839s)
+[2017.07.20-10.59.10:937][223]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-10.59.10:948][223]LogInit: FAudioDevice initialized.
+[2017.07.20-10.59.10:976][223]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.20-10.59.10:985][223]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo up for play (max tick rate 0) at 2017.07.20-11.59.10
+[2017.07.20-10.59.10:986][223]LogWorld: Bringing up level for play took: 0.008984
+[2017.07.20-10.59.10:988][223]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_LifeDemo 0.061
+[2017.07.20-10.59.10:988][223]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-10.59.17:819][ 28]LogBlueprintUserMessages: [LifeDemo_C_0] I never thought I would be back here. It all still looks the same. Like a photo from when I left. Well, with just a bit more, “me”.
+[2017.07.20-10.59.22:530][592]LogBlueprintUserMessages: [LifeDemo_C_0] When I was younger I loved this place, I had always wanted to be out in the country. We moved when Dad got a new job out here. Said he needed the space.
+[2017.07.20-10.59.37:720][409]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-10.59.37:763][409]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.07.22:773][351]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.07.20-11.07.23:373][351]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.20-11.07.23:578][351]LogSlate: Took 0.017575 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.20-11.07.23:810][352]LogSlate: Took 0.012429 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.20-11.07.25:238][491]LogRenderer: Reallocating scene render targets to support 1144x744 NumSamples 1 (Frame:1).
+[2017.07.20-11.07.29:858][  8]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.07.20-11.07.30:909][111]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.20-11.07.30:923][111]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.07.30:923][111]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-11.07.30:924][111]PIE: New page: PIE session: LifeDemo (20 Jul 2017 13:07:30)
+[2017.07.20-11.07.30:924][111]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LifeDemo
+[2017.07.20-11.07.30:997][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073544s)
+[2017.07.20-11.07.30:998][111]LogAIModule: Creating AISystem for world LifeDemo
+[2017.07.20-11.07.30:998][111]LogPlayLevel: PIE: World Init took: (0.000575s)
+[2017.07.20-11.07.30:998][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LifeDemo.LifeDemo to /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo (0.074433s)
+[2017.07.20-11.07.31:021][111]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-11.07.31:031][111]LogInit: FAudioDevice initialized.
+[2017.07.20-11.07.31:090][111]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.20-11.07.31:100][111]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo up for play (max tick rate 0) at 2017.07.20-12.07.31
+[2017.07.20-11.07.31:101][111]LogWorld: Bringing up level for play took: 0.009203
+[2017.07.20-11.07.31:105][111]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_LifeDemo 0.178
+[2017.07.20-11.07.31:105][111]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.07.31:162][111]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2017.07.20-11.07.37:763][886]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.07.37:810][886]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.08.07:758][405]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/LifeDemo' took 0.014
+[2017.07.20-11.08.07:761][405]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2017.07.20-11.08.07:761][405]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2017.07.20-11.08.07:817][405]LogSavePackage: Save=45.73ms
+[2017.07.20-11.08.07:817][405]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Life/Life/Saved/FirstPersonCharacter_Auto216FBE0F2444F61BE9A693D84DB898730.tmp' to 'C:/Users/Tom/Documents/GitHub/Life/Life/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto2.uasset'
+[2017.07.20-11.08.07:820][405]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Life/Life/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto2.uasset
+[2017.07.20-11.08.07:820][405]LogFileHelpers: Auto-saving content packages took 0.061
+[2017.07.20-11.12.37:955][598]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2017.07.20-11.12.37:997][598]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128)
+[2017.07.20-11.13.03:971][420]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.07.20-11.13.32:673][680]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.07.20-11.13.34:065][810]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.13.34:065][810]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-11.13.34:065][810]PIE: New page: PIE session: LifeDemo (20 Jul 2017 13:13:34)
+[2017.07.20-11.13.34:065][810]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LifeDemo
+[2017.07.20-11.13.34:137][810]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072117s)
+[2017.07.20-11.13.34:138][810]LogAIModule: Creating AISystem for world LifeDemo
+[2017.07.20-11.13.34:138][810]LogPlayLevel: PIE: World Init took: (0.000645s)
+[2017.07.20-11.13.34:138][810]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LifeDemo.LifeDemo to /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo (0.073075s)
+[2017.07.20-11.13.34:161][810]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-11.13.34:171][810]LogInit: FAudioDevice initialized.
+[2017.07.20-11.13.34:203][810]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.20-11.13.34:214][810]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo up for play (max tick rate 0) at 2017.07.20-12.13.34
+[2017.07.20-11.13.34:215][810]LogWorld: Bringing up level for play took: 0.011106
+[2017.07.20-11.13.34:217][810]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_LifeDemo -0.709
+[2017.07.20-11.13.34:218][810]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.13.35:852][998]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.13.35:898][998]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.13.39:829][437]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.07.20-11.14.03:360][949]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.07.20-11.15.36:986][672]Cmd: DELETE
+[2017.07.20-11.15.36:987][672]Cmd: ACTOR DELETE
+[2017.07.20-11.15.37:002][672]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.15.37:134][672]LogEditorActor: Deleted 1 Actors (0.136 secs)
+[2017.07.20-11.15.37:614][721]Cmd: DELETE
+[2017.07.20-11.15.37:614][721]Cmd: ACTOR DELETE
+[2017.07.20-11.15.37:618][721]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.15.37:742][721]LogEditorActor: Deleted 1 Actors (0.128 secs)
+[2017.07.20-11.15.38:384][790]Cmd: DELETE
+[2017.07.20-11.15.38:384][790]Cmd: ACTOR DELETE
+[2017.07.20-11.15.38:388][790]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.15.38:514][790]LogEditorActor: Deleted 1 Actors (0.129 secs)
+[2017.07.20-11.15.39:377][885]Cmd: DELETE
+[2017.07.20-11.15.39:377][885]Cmd: ACTOR DELETE
+[2017.07.20-11.15.39:380][885]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.15.39:483][885]LogEditorActor: Deleted 1 Actors (0.106 secs)
+[2017.07.20-11.15.40:224][965]Cmd: DELETE
+[2017.07.20-11.15.40:224][965]Cmd: ACTOR DELETE
+[2017.07.20-11.15.40:228][965]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.15.40:332][965]LogEditorActor: Deleted 1 Actors (0.108 secs)
+[2017.07.20-11.15.43:177][257]Cmd: DELETE
+[2017.07.20-11.15.43:177][257]Cmd: ACTOR DELETE
+[2017.07.20-11.15.43:181][257]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.15.43:292][257]LogEditorActor: Deleted 1 Actors (0.114 secs)
+[2017.07.20-11.15.45:138][469]Cmd: DELETE
+[2017.07.20-11.15.45:138][469]Cmd: ACTOR DELETE
+[2017.07.20-11.15.45:142][469]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.15.45:248][469]LogEditorActor: Deleted 1 Actors (0.110 secs)
+[2017.07.20-11.15.46:062][558]Cmd: DELETE
+[2017.07.20-11.15.46:062][558]Cmd: ACTOR DELETE
+[2017.07.20-11.15.46:067][558]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.15.46:167][558]LogEditorActor: Deleted 1 Actors (0.104 secs)
+[2017.07.20-11.15.46:787][624]Cmd: DELETE
+[2017.07.20-11.15.46:787][624]Cmd: ACTOR DELETE
+[2017.07.20-11.15.46:791][624]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.15.46:891][624]LogEditorActor: Deleted 1 Actors (0.104 secs)
+[2017.07.20-11.15.47:389][675]Cmd: DELETE
+[2017.07.20-11.15.47:389][675]Cmd: ACTOR DELETE
+[2017.07.20-11.15.47:394][675]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.15.47:499][675]LogEditorActor: Deleted 1 Actors (0.110 secs)
+[2017.07.20-11.15.51:786][163]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox17)
+[2017.07.20-11.15.52:481][235]Cmd: DELETE
+[2017.07.20-11.15.52:481][235]Cmd: ACTOR DELETE
+[2017.07.20-11.15.53:882][235]LogEditorActor: Deleted Actor: TriggerBox
+[2017.07.20-11.15.53:897][235]LogEditorActor: Deleted 1 Actors (1.417 secs)
+[2017.07.20-11.15.54:878][351]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox4)
+[2017.07.20-11.15.55:187][383]Cmd: DELETE
+[2017.07.20-11.15.55:187][383]Cmd: ACTOR DELETE
+[2017.07.20-11.15.56:331][383]LogEditorActor: Deleted Actor: TriggerBox
+[2017.07.20-11.15.56:350][383]LogEditorActor: Deleted 1 Actors (1.163 secs)
+[2017.07.20-11.15.57:644][534]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint3)
+[2017.07.20-11.15.57:936][564]Cmd: DELETE
+[2017.07.20-11.15.57:936][564]Cmd: ACTOR DELETE
+[2017.07.20-11.15.59:408][564]LogEditorActor: Deleted Actor: TargetPoint
+[2017.07.20-11.15.59:423][564]LogEditorActor: Deleted 1 Actors (1.486 secs)
+[2017.07.20-11.16.04:311][113]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.07.20-11.16.04:941][182]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox2)
+[2017.07.20-11.16.05:250][212]Cmd: DELETE
+[2017.07.20-11.16.05:250][212]Cmd: ACTOR DELETE
+[2017.07.20-11.16.07:387][212]LogEditorActor: Deleted Actor: TriggerBox
+[2017.07.20-11.16.07:404][212]LogEditorActor: Deleted 1 Actors (2.154 secs)
+[2017.07.20-11.16.08:336][321]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox9)
+[2017.07.20-11.16.09:088][402]Cmd: DELETE
+[2017.07.20-11.16.09:088][402]Cmd: ACTOR DELETE
+[2017.07.20-11.16.10:109][402]LogEditorActor: Deleted Actor: TriggerBox
+[2017.07.20-11.16.10:124][402]LogEditorActor: Deleted 1 Actors (1.036 secs)
+[2017.07.20-11.16.19:234][442]Cmd: DELETE
+[2017.07.20-11.16.19:234][442]Cmd: ACTOR DELETE
+[2017.07.20-11.16.20:708][442]LogEditorActor: Deleted Actor: TargetPoint
+[2017.07.20-11.16.20:709][442]LogEditorActor: Deleted Actor: TargetPoint
+[2017.07.20-11.16.20:710][442]LogEditorActor: Deleted Actor: TargetPoint
+[2017.07.20-11.16.20:711][442]LogEditorActor: Deleted Actor: TriggerBox
+[2017.07.20-11.16.20:712][442]LogEditorActor: Deleted Actor: TriggerBox
+[2017.07.20-11.16.20:713][442]LogEditorActor: Deleted Actor: TriggerBox
+[2017.07.20-11.16.20:714][442]LogEditorActor: Deleted Actor: TriggerBox
+[2017.07.20-11.16.20:714][442]LogEditorActor: Deleted Actor: TriggerBox
+[2017.07.20-11.16.20:715][442]LogEditorActor: Deleted Actor: TriggerBox
+[2017.07.20-11.16.20:716][442]LogEditorActor: Deleted Actor: TriggerBox
+[2017.07.20-11.16.20:717][442]LogEditorActor: Deleted Actor: TriggerBox
+[2017.07.20-11.16.20:717][442]LogEditorActor: Deleted Actor: TriggerBox
+[2017.07.20-11.16.20:718][442]LogEditorActor: Deleted Actor: TriggerBox
+[2017.07.20-11.16.20:719][442]LogEditorActor: Deleted Actor: TriggerBox
+[2017.07.20-11.16.20:719][442]LogEditorActor: Deleted Actor: TriggerBox
+[2017.07.20-11.16.20:720][442]LogEditorActor: Deleted Actor: TriggerBox
+[2017.07.20-11.16.20:721][442]LogEditorActor: Deleted Actor: TriggerBox
+[2017.07.20-11.16.20:722][442]LogEditorActor: Deleted Actor: TriggerBox
+[2017.07.20-11.16.20:738][442]LogEditorActor: Deleted 18 Actors (1.504 secs)
+[2017.07.20-11.16.30:510][527]BlueprintLog: New page: Compile LifeDemo
+[2017.07.20-11.18.09:517][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/LifeDemo" FILE="C:/Users/Tom/Documents/GitHub/Life/Life/Saved/Autosaves/Game/Levels/LifeDemo_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.07.20-11.18.10:435][297]LogSavePackage: Save=903.62ms
+[2017.07.20-11.18.10:435][297]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Life/Life/Saved/LifeDemo_Auto3D18FA8F549F01465A80FA19FAE27EA6B.tmp' to 'C:/Users/Tom/Documents/GitHub/Life/Life/Saved/Autosaves/Game/Levels/LifeDemo_Auto3.umap'
+[2017.07.20-11.18.10:438][297]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Life/Life/Saved/Autosaves/Game/Levels/LifeDemo_Auto3.umap
+[2017.07.20-11.18.10:440][297]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/LifeDemo' took 0.940
+[2017.07.20-11.18.10:440][297]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.940
+[2017.07.20-11.18.59:790][147]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.07.20-11.19.06:097][853]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.20-11.19.06:106][853]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.19.06:106][853]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-11.19.06:107][853]PIE: New page: PIE session: LifeDemo (20 Jul 2017 13:19:06)
+[2017.07.20-11.19.06:107][853]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LifeDemo
+[2017.07.20-11.19.06:159][853]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052198s)
+[2017.07.20-11.19.06:160][853]LogAIModule: Creating AISystem for world LifeDemo
+[2017.07.20-11.19.06:160][853]LogPlayLevel: PIE: World Init took: (0.000599s)
+[2017.07.20-11.19.06:160][853]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LifeDemo.LifeDemo to /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo (0.053144s)
+[2017.07.20-11.19.06:182][853]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-11.19.06:193][853]LogInit: FAudioDevice initialized.
+[2017.07.20-11.19.06:227][853]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.20-11.19.06:236][853]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo up for play (max tick rate 0) at 2017.07.20-12.19.06
+[2017.07.20-11.19.06:236][853]LogWorld: Bringing up level for play took: 0.008126
+[2017.07.20-11.19.06:238][853]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_LifeDemo -0.689
+[2017.07.20-11.19.06:238][853]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.19.15:640][973]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.19.15:684][973]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.23.49:715][289]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_WaterFall_C (BP_WaterFall)
+[2017.07.20-11.25.17:954][602]Cmd: TRANSACTION UNDO
+[2017.07.20-11.25.17:954][602]LogEditorTransaction: Undo Move Actors
+[2017.07.20-11.25.17:984][602]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush54.BrushComponent0) Component already registered.
+[2017.07.20-11.25.17:987][602]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush133.BrushComponent0) Component already registered.
+[2017.07.20-11.25.39:784][ 53]Cmd: DELETE
+[2017.07.20-11.25.39:784][ 53]Cmd: ACTOR DELETE
+[2017.07.20-11.25.39:789][ 53]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.25.39:899][ 53]LogEditorActor: Deleted 1 Actors (0.115 secs)
+[2017.07.20-11.25.40:341][ 98]Cmd: DELETE
+[2017.07.20-11.25.40:341][ 98]Cmd: ACTOR DELETE
+[2017.07.20-11.25.40:346][ 98]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.25.40:439][ 98]LogEditorActor: Deleted 1 Actors (0.097 secs)
+[2017.07.20-11.25.40:839][137]Cmd: DELETE
+[2017.07.20-11.25.40:839][137]Cmd: ACTOR DELETE
+[2017.07.20-11.25.40:844][137]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.25.40:937][137]LogEditorActor: Deleted 1 Actors (0.098 secs)
+[2017.07.20-11.25.41:557][203]Cmd: DELETE
+[2017.07.20-11.25.41:557][203]Cmd: ACTOR DELETE
+[2017.07.20-11.25.41:562][203]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.25.41:660][203]LogEditorActor: Deleted 1 Actors (0.102 secs)
+[2017.07.20-11.25.42:304][272]Cmd: DELETE
+[2017.07.20-11.25.42:304][272]Cmd: ACTOR DELETE
+[2017.07.20-11.25.42:308][272]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.25.42:400][272]LogEditorActor: Deleted 1 Actors (0.097 secs)
+[2017.07.20-11.25.42:841][316]Cmd: DELETE
+[2017.07.20-11.25.42:841][316]Cmd: ACTOR DELETE
+[2017.07.20-11.25.42:845][316]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.25.42:939][316]LogEditorActor: Deleted 1 Actors (0.097 secs)
+[2017.07.20-11.25.43:626][390]Cmd: DELETE
+[2017.07.20-11.25.43:626][390]Cmd: ACTOR DELETE
+[2017.07.20-11.25.43:631][390]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.25.43:721][390]LogEditorActor: Deleted 1 Actors (0.094 secs)
+[2017.07.20-11.26.20:993][765]Cmd: DELETE
+[2017.07.20-11.26.20:993][765]Cmd: ACTOR DELETE
+[2017.07.20-11.26.20:997][765]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.26.21:086][765]LogEditorActor: Deleted 1 Actors (0.093 secs)
+[2017.07.20-11.26.21:848][852]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.07.20-11.26.22:667][944]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Roundabout)
+[2017.07.20-11.26.23:031][977]Cmd: DELETE
+[2017.07.20-11.26.23:031][977]Cmd: ACTOR DELETE
+[2017.07.20-11.26.23:034][977]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.20-11.26.23:053][977]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2017.07.20-11.26.24:109][102]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SwingSet)
+[2017.07.20-11.26.24:450][137]Cmd: DELETE
+[2017.07.20-11.26.24:450][137]Cmd: ACTOR DELETE
+[2017.07.20-11.26.24:453][137]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.20-11.26.24:466][137]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.07.20-11.26.25:204][218]Cmd: DELETE
+[2017.07.20-11.26.25:204][218]Cmd: ACTOR DELETE
+[2017.07.20-11.26.25:208][218]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.26.25:298][218]LogEditorActor: Deleted 1 Actors (0.093 secs)
+[2017.07.20-11.26.25:839][281]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DogGrave)
+[2017.07.20-11.26.26:011][295]Cmd: DELETE
+[2017.07.20-11.26.26:012][295]Cmd: ACTOR DELETE
+[2017.07.20-11.26.26:014][295]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.20-11.26.26:028][295]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.07.20-11.26.26:611][357]Cmd: DELETE
+[2017.07.20-11.26.26:611][357]Cmd: ACTOR DELETE
+[2017.07.20-11.26.26:615][357]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.26.26:703][357]LogEditorActor: Deleted 1 Actors (0.092 secs)
+[2017.07.20-11.26.27:303][420]Cmd: DELETE
+[2017.07.20-11.26.27:303][420]Cmd: ACTOR DELETE
+[2017.07.20-11.26.27:308][420]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.26.27:395][420]LogEditorActor: Deleted 1 Actors (0.091 secs)
+[2017.07.20-11.26.29:906][710]Cmd: DELETE
+[2017.07.20-11.26.29:906][710]Cmd: ACTOR DELETE
+[2017.07.20-11.26.29:911][710]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.26.29:994][710]LogEditorActor: Deleted 1 Actors (0.088 secs)
+[2017.07.20-11.26.30:622][777]Cmd: DELETE
+[2017.07.20-11.26.30:622][777]Cmd: ACTOR DELETE
+[2017.07.20-11.26.30:626][777]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.26.30:710][777]LogEditorActor: Deleted 1 Actors (0.087 secs)
+[2017.07.20-11.26.31:354][846]Cmd: DELETE
+[2017.07.20-11.26.31:354][846]Cmd: ACTOR DELETE
+[2017.07.20-11.26.31:358][846]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.26.31:448][846]LogEditorActor: Deleted 1 Actors (0.094 secs)
+[2017.07.20-11.26.32:396][951]Cmd: DELETE
+[2017.07.20-11.26.32:396][951]Cmd: ACTOR DELETE
+[2017.07.20-11.26.32:399][951]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.26.32:488][951]LogEditorActor: Deleted 1 Actors (0.092 secs)
+[2017.07.20-11.26.35:949][335]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HouseSign)
+[2017.07.20-11.26.36:245][362]Cmd: DELETE
+[2017.07.20-11.26.36:245][362]Cmd: ACTOR DELETE
+[2017.07.20-11.26.36:248][362]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.20-11.26.36:262][362]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.07.20-11.26.44:124][227]LogEditorViewport: Clicking on Actor (LMB): MeshSpline_BP_C (MeshSpline_BP)
+[2017.07.20-11.26.52:046][109]LogEditorViewport: Clicking on Actor (LMB): GateOpen_BP_C (GateOpen_BP)
+[2017.07.20-11.27.02:385][249]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_StoneWallMid400)
+[2017.07.20-11.27.22:140][393]Cmd: TRANSACTION UNDO
+[2017.07.20-11.27.22:140][393]LogEditorTransaction: Undo Move Actors
+[2017.07.20-11.27.22:168][393]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush22_42.BrushComponent0) Component already registered.
+[2017.07.20-11.27.22:169][393]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
+[2017.07.20-11.27.22:187][393]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush180.BrushComponent0) Component already registered.
+[2017.07.20-11.27.22:187][393]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush210.BrushComponent0) Component already registered.
+[2017.07.20-11.27.22:187][393]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush221.BrushComponent0) Component already registered.
+[2017.07.20-11.27.31:167][379]LogEditorViewport: Clicking on Actor (LMB): MeshSpline_BP_C (MeshSpline_BP2)
+[2017.07.20-11.27.53:237][840]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_StoneWallMid400)
+[2017.07.20-11.28.06:719][363]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.07.20-11.28.15:723][339]Cmd: DELETE
+[2017.07.20-11.28.15:723][339]Cmd: ACTOR DELETE
+[2017.07.20-11.28.15:727][339]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.28.15:831][339]LogEditorActor: Deleted 1 Actors (0.107 secs)
+[2017.07.20-11.28.16:985][469]Cmd: DELETE
+[2017.07.20-11.28.16:985][469]Cmd: ACTOR DELETE
+[2017.07.20-11.28.16:989][469]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.28.17:081][469]LogEditorActor: Deleted 1 Actors (0.095 secs)
+[2017.07.20-11.28.17:923][562]Cmd: DELETE
+[2017.07.20-11.28.17:923][562]Cmd: ACTOR DELETE
+[2017.07.20-11.28.17:927][562]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.28.18:014][562]LogEditorActor: Deleted 1 Actors (0.090 secs)
+[2017.07.20-11.28.18:422][603]Cmd: DELETE
+[2017.07.20-11.28.18:422][603]Cmd: ACTOR DELETE
+[2017.07.20-11.28.18:426][603]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.28.18:518][603]LogEditorActor: Deleted 1 Actors (0.095 secs)
+[2017.07.20-11.28.18:927][644]Cmd: DELETE
+[2017.07.20-11.28.18:927][644]Cmd: ACTOR DELETE
+[2017.07.20-11.28.18:929][644]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.28.19:018][644]LogEditorActor: Deleted 1 Actors (0.091 secs)
+[2017.07.20-11.28.19:496][693]Cmd: DELETE
+[2017.07.20-11.28.19:496][693]Cmd: ACTOR DELETE
+[2017.07.20-11.28.19:499][693]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.28.19:613][693]LogEditorActor: Deleted 1 Actors (0.117 secs)
+[2017.07.20-11.28.20:115][745]Cmd: DELETE
+[2017.07.20-11.28.20:115][745]Cmd: ACTOR DELETE
+[2017.07.20-11.28.20:119][745]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.28.20:205][745]LogEditorActor: Deleted 1 Actors (0.089 secs)
+[2017.07.20-11.29.07:009][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/LifeDemo" FILE="C:/Users/Tom/Documents/GitHub/Life/Life/Saved/Autosaves/Game/Levels/LifeDemo_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.07.20-11.29.07:883][159]LogSavePackage: Save=858.12ms
+[2017.07.20-11.29.07:883][159]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Life/Life/Saved/LifeDemo_Auto457CE51C541A812F26711C8B7C0D77ED8.tmp' to 'C:/Users/Tom/Documents/GitHub/Life/Life/Saved/Autosaves/Game/Levels/LifeDemo_Auto4.umap'
+[2017.07.20-11.29.07:886][159]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Life/Life/Saved/Autosaves/Game/Levels/LifeDemo_Auto4.umap
+[2017.07.20-11.29.07:888][159]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/LifeDemo' took 0.897
+[2017.07.20-11.29.07:888][159]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.897
+[2017.07.20-11.29.52:695][345]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.20-11.29.52:706][345]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.29.52:706][345]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-11.29.52:706][345]PIE: New page: PIE session: LifeDemo (20 Jul 2017 13:29:52)
+[2017.07.20-11.29.52:706][345]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LifeDemo
+[2017.07.20-11.29.52:755][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048965s)
+[2017.07.20-11.29.52:756][345]LogAIModule: Creating AISystem for world LifeDemo
+[2017.07.20-11.29.52:756][345]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2017.07.20-11.29.52:756][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LifeDemo.LifeDemo to /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo (0.049948s)
+[2017.07.20-11.29.52:781][345]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-11.29.52:793][345]LogInit: FAudioDevice initialized.
+[2017.07.20-11.29.52:826][345]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.20-11.29.52:834][345]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo up for play (max tick rate 0) at 2017.07.20-12.29.52
+[2017.07.20-11.29.52:835][345]LogWorld: Bringing up level for play took: 0.007656
+[2017.07.20-11.29.52:836][345]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_LifeDemo -0.091
+[2017.07.20-11.29.52:837][345]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.30.01:980][415]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.30.02:027][415]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.30.09:232][ 21]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlane)
+[2017.07.20-11.31.02:530][ 85]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.31.02:530][ 85]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-11.31.02:530][ 85]PIE: New page: SIE session: LifeDemo (20 Jul 2017 13:31:02)
+[2017.07.20-11.31.02:530][ 85]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LifeDemo
+[2017.07.20-11.31.02:578][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048005s)
+[2017.07.20-11.31.02:578][ 85]LogAIModule: Creating AISystem for world LifeDemo
+[2017.07.20-11.31.02:578][ 85]LogPlayLevel: PIE: World Init took: (0.000527s)
+[2017.07.20-11.31.02:579][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LifeDemo.LifeDemo to /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo (0.048788s)
+[2017.07.20-11.31.02:609][ 85]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-11.31.02:619][ 85]LogInit: FAudioDevice initialized.
+[2017.07.20-11.31.02:654][ 85]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.20-11.31.02:665][ 85]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo up for play (max tick rate 0) at 2017.07.20-12.31.02
+[2017.07.20-11.31.02:665][ 85]LogWorld: Bringing up level for play took: 0.009532
+[2017.07.20-11.31.02:666][ 85]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_LifeDemo -0.26
+[2017.07.20-11.31.02:669][ 85]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.31.16:065][463]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.31.16:101][463]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.31.18:794][764]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlane)
+[2017.07.20-11.32.54:233][707]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush92)
+[2017.07.20-11.32.59:083][964]Cmd: DELETE
+[2017.07.20-11.32.59:083][964]Cmd: ACTOR DELETE
+[2017.07.20-11.32.59:087][964]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.32.59:176][964]LogEditorActor: Deleted 1 Actors (0.092 secs)
+[2017.07.20-11.32.59:717][  2]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush98)
+[2017.07.20-11.33.00:073][ 24]Cmd: DELETE
+[2017.07.20-11.33.00:073][ 24]Cmd: ACTOR DELETE
+[2017.07.20-11.33.00:077][ 24]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.33.00:166][ 24]LogEditorActor: Deleted 1 Actors (0.092 secs)
+[2017.07.20-11.33.00:746][ 65]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush100)
+[2017.07.20-11.33.01:026][ 82]Cmd: DELETE
+[2017.07.20-11.33.01:026][ 82]Cmd: ACTOR DELETE
+[2017.07.20-11.33.01:030][ 82]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.33.01:115][ 82]LogEditorActor: Deleted 1 Actors (0.089 secs)
+[2017.07.20-11.33.01:743][126]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush99)
+[2017.07.20-11.33.01:919][135]Cmd: DELETE
+[2017.07.20-11.33.01:919][135]Cmd: ACTOR DELETE
+[2017.07.20-11.33.01:922][135]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.33.02:012][135]LogEditorActor: Deleted 1 Actors (0.093 secs)
+[2017.07.20-11.33.02:852][195]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush97)
+[2017.07.20-11.33.03:002][203]Cmd: DELETE
+[2017.07.20-11.33.03:002][203]Cmd: ACTOR DELETE
+[2017.07.20-11.33.03:006][203]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.33.03:087][203]LogEditorActor: Deleted 1 Actors (0.084 secs)
+[2017.07.20-11.33.03:873][263]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush101)
+[2017.07.20-11.33.04:060][274]Cmd: DELETE
+[2017.07.20-11.33.04:060][274]Cmd: ACTOR DELETE
+[2017.07.20-11.33.04:063][274]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.33.04:144][274]LogEditorActor: Deleted 1 Actors (0.084 secs)
+[2017.07.20-11.33.04:792][321]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush96)
+[2017.07.20-11.33.04:911][327]Cmd: DELETE
+[2017.07.20-11.33.04:911][327]Cmd: ACTOR DELETE
+[2017.07.20-11.33.04:914][327]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.33.05:001][327]LogEditorActor: Deleted 1 Actors (0.090 secs)
+[2017.07.20-11.33.06:226][419]LogEditorViewport: Clicking Background
+[2017.07.20-11.33.07:135][482]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush95)
+[2017.07.20-11.33.07:358][495]Cmd: DELETE
+[2017.07.20-11.33.07:358][495]Cmd: ACTOR DELETE
+[2017.07.20-11.33.07:363][495]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.33.07:444][495]LogEditorActor: Deleted 1 Actors (0.086 secs)
+[2017.07.20-11.33.08:520][568]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush93)
+[2017.07.20-11.33.08:679][577]Cmd: DELETE
+[2017.07.20-11.33.08:680][577]Cmd: ACTOR DELETE
+[2017.07.20-11.33.08:684][577]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.33.08:766][577]LogEditorActor: Deleted 1 Actors (0.087 secs)
+[2017.07.20-11.33.09:450][628]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush94)
+[2017.07.20-11.33.09:622][638]Cmd: DELETE
+[2017.07.20-11.33.09:622][638]Cmd: ACTOR DELETE
+[2017.07.20-11.33.09:627][638]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.33.09:711][638]LogEditorActor: Deleted 1 Actors (0.088 secs)
+[2017.07.20-11.33.32:759][136]Cmd: TRANSACTION UNDO
+[2017.07.20-11.33.32:759][136]LogEditorTransaction: Undo Move Actors
+[2017.07.20-11.33.32:810][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_RoofMain_706.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:811][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_StairsBanisterFlat300_689.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:812][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil500x501.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:812][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil500x503_439.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:813][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_StairsBanisterFlat500_697.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:813][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_WallDoorwayIndoors506_291.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:814][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_WallDoorwayIndoors508.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:815][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_WallCorner300x303.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:816][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil300x314.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:816][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil300x316.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:817][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil300x303.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:818][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil300x322.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:819][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil400x404.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:820][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil300x328.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:821][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_WallIndoors304_270.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:845][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_WallOuter300_74.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:846][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_WallOuter302_107.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:847][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_WallIndoors310.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:848][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_WallOuter500_98.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:848][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_WallWindow6.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:851][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_WallWindow10_143.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:852][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush187.BrushComponent0) Component already registered.
+[2017.07.20-11.33.32:852][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush190.BrushComponent0) Component already registered.
+[2017.07.20-11.33.32:852][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush192.BrushComponent0) Component already registered.
+[2017.07.20-11.33.32:852][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush193.BrushComponent0) Component already registered.
+[2017.07.20-11.33.32:854][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil100x136_653.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:855][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil100x138.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:856][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil100x123.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:857][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil100x144.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:857][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil200x217_635.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:859][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil200x205.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:860][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_Chimney2.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:860][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_CornerBricks2.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:861][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_CornerBricksShort3.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:861][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil100x111.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:862][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_DoorFront_404.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.33.32:863][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_127) Component already registered.
+[2017.07.20-11.33.32:864][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush138.BrushComponent0) Component already registered.
+[2017.07.20-11.33.32:864][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush140.BrushComponent0) Component already registered.
+[2017.07.20-11.33.32:864][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush147.BrushComponent0) Component already registered.
+[2017.07.20-11.33.32:864][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush149.BrushComponent0) Component already registered.
+[2017.07.20-11.33.32:865][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush128.BrushComponent0) Component already registered.
+[2017.07.20-11.33.32:865][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_65) Component already registered.
+[2017.07.20-11.33.32:865][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_64) Component already registered.
+[2017.07.20-11.33.32:866][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_66) Component already registered.
+[2017.07.20-11.33.32:866][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_67) Component already registered.
+[2017.07.20-11.33.32:866][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_73) Component already registered.
+[2017.07.20-11.33.32:867][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_77) Component already registered.
+[2017.07.20-11.33.32:867][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_76) Component already registered.
+[2017.07.20-11.33.32:867][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_75) Component already registered.
+[2017.07.20-11.33.32:867][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_74) Component already registered.
+[2017.07.20-11.33.32:868][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_72) Component already registered.
+[2017.07.20-11.33.32:868][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_71) Component already registered.
+[2017.07.20-11.33.32:868][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_70) Component already registered.
+[2017.07.20-11.33.32:869][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_69) Component already registered.
+[2017.07.20-11.33.32:869][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_68) Component already registered.
+[2017.07.20-11.33.32:869][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_78) Component already registered.
+[2017.07.20-11.33.32:869][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_79) Component already registered.
+[2017.07.20-11.33.32:870][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_110) Component already registered.
+[2017.07.20-11.33.32:870][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_114) Component already registered.
+[2017.07.20-11.33.32:870][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_113) Component already registered.
+[2017.07.20-11.33.32:871][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_112) Component already registered.
+[2017.07.20-11.33.32:871][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_111) Component already registered.
+[2017.07.20-11.33.32:872][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_109) Component already registered.
+[2017.07.20-11.33.32:872][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_115) Component already registered.
+[2017.07.20-11.33.32:872][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_108) Component already registered.
+[2017.07.20-11.33.32:873][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_107) Component already registered.
+[2017.07.20-11.33.32:873][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_106) Component already registered.
+[2017.07.20-11.33.32:873][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_105) Component already registered.
+[2017.07.20-11.33.32:874][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_116) Component already registered.
+[2017.07.20-11.33.32:874][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_122) Component already registered.
+[2017.07.20-11.33.32:874][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_126) Component already registered.
+[2017.07.20-11.33.32:875][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_125) Component already registered.
+[2017.07.20-11.33.32:875][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_124) Component already registered.
+[2017.07.20-11.33.32:875][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_123) Component already registered.
+[2017.07.20-11.33.32:875][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_121) Component already registered.
+[2017.07.20-11.33.32:876][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_104) Component already registered.
+[2017.07.20-11.33.32:876][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_120) Component already registered.
+[2017.07.20-11.33.32:876][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_119) Component already registered.
+[2017.07.20-11.33.32:877][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_118) Component already registered.
+[2017.07.20-11.33.32:877][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_117) Component already registered.
+[2017.07.20-11.33.32:877][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_103) Component already registered.
+[2017.07.20-11.33.32:877][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_85) Component already registered.
+[2017.07.20-11.33.32:878][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_89) Component already registered.
+[2017.07.20-11.33.32:878][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_88) Component already registered.
+[2017.07.20-11.33.32:878][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_87) Component already registered.
+[2017.07.20-11.33.32:879][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_86) Component already registered.
+[2017.07.20-11.33.32:879][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_84) Component already registered.
+[2017.07.20-11.33.32:879][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_90) Component already registered.
+[2017.07.20-11.33.32:880][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_83) Component already registered.
+[2017.07.20-11.33.32:880][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_82) Component already registered.
+[2017.07.20-11.33.32:880][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_81) Component already registered.
+[2017.07.20-11.33.32:881][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_80) Component already registered.
+[2017.07.20-11.33.32:881][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_91) Component already registered.
+[2017.07.20-11.33.32:881][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_97) Component already registered.
+[2017.07.20-11.33.32:881][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_101) Component already registered.
+[2017.07.20-11.33.32:882][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_100) Component already registered.
+[2017.07.20-11.33.32:882][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_99) Component already registered.
+[2017.07.20-11.33.32:882][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_98) Component already registered.
+[2017.07.20-11.33.32:883][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_96) Component already registered.
+[2017.07.20-11.33.32:883][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_102) Component already registered.
+[2017.07.20-11.33.32:883][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_95) Component already registered.
+[2017.07.20-11.33.32:884][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_94) Component already registered.
+[2017.07.20-11.33.32:884][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_93) Component already registered.
+[2017.07.20-11.33.32:884][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_92) Component already registered.
+[2017.07.20-11.33.32:886][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush14_26.BrushComponent0) Component already registered.
+[2017.07.20-11.33.32:886][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush5_9.BrushComponent0) Component already registered.
+[2017.07.20-11.33.32:886][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush25_47.BrushComponent0) Component already registered.
+[2017.07.20-11.33.32:887][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush85.BrushComponent0) Component already registered.
+[2017.07.20-11.33.32:887][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush87.BrushComponent0) Component already registered.
+[2017.07.20-11.33.32:887][136]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush61.BrushComponent0) Component already registered.
+[2017.07.20-11.33.50:143][872]Cmd: DELETE
+[2017.07.20-11.33.50:143][872]Cmd: ACTOR DELETE
+[2017.07.20-11.33.50:147][872]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.33.50:229][872]LogEditorActor: Deleted 1 Actors (0.085 secs)
+[2017.07.20-11.34.16:906][228]Cmd: TRANSACTION UNDO
+[2017.07.20-11.34.16:906][228]LogEditorTransaction: Undo Move Actors
+[2017.07.20-11.34.16:947][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil400x405.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:947][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil400x409.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:947][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil400x410.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:947][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil300x329.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:949][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_RoofMain_706.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:949][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_StairsBanisterFlat302.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:950][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil500x502.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:950][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil500x506_490.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:951][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil200x222.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:952][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil300x300_456.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:952][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil200x211.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:953][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil200x215_678.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:953][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil300x318.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:955][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil300x303.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:955][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil300x307.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:955][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil300x311.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:956][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_WallWindow13.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:957][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_WallWindow17.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:957][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_WallOuter306_128.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:958][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_WallOuter502_135.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:958][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush5_9.BrushComponent0) Component already registered.
+[2017.07.20-11.34.16:959][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_WallWindow4.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:959][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_WallWindow8.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:974][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_WallDoorwayIndoors503.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:975][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_WallDoorwayIndoors507.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:975][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_StairsBanisterFlat305.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:976][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_WallCorner300x300_77.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:976][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_WallCorner300x304.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:976][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_WallIndoors315.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:978][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_WallIndoors300_157.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:978][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_WallIndoors304_270.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:978][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_WallIndoors308_293.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:979][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush193.BrushComponent0) Component already registered.
+[2017.07.20-11.34.16:979][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush195.BrushComponent0) Component already registered.
+[2017.07.20-11.34.16:979][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush190.BrushComponent0) Component already registered.
+[2017.07.20-11.34.16:979][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush212.BrushComponent0) Component already registered.
+[2017.07.20-11.34.16:979][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush214.BrushComponent0) Component already registered.
+[2017.07.20-11.34.16:980][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush159.BrushComponent0) Component already registered.
+[2017.07.20-11.34.16:980][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush161.BrushComponent0) Component already registered.
+[2017.07.20-11.34.16:981][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil100x120.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:981][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil100x124.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:982][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil100x109.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:982][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil100x113.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:983][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil100x144.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:984][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil100x127.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:984][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil100x131.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:985][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_FloorCeil100x137.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:985][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush223.BrushComponent0) Component already registered.
+[2017.07.20-11.34.16:985][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush225.BrushComponent0) Component already registered.
+[2017.07.20-11.34.16:986][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_Door5.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:987][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_Chimney_709.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:987][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.SM_CornerBricks6.StaticMeshComponent0) Component already registered.
+[2017.07.20-11.34.16:988][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush130.BrushComponent0) Component already registered.
+[2017.07.20-11.34.16:988][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush139.BrushComponent0) Component already registered.
+[2017.07.20-11.34.16:989][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush112.BrushComponent0) Component already registered.
+[2017.07.20-11.34.16:989][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush107.BrushComponent0) Component already registered.
+[2017.07.20-11.34.16:990][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush114.BrushComponent0) Component already registered.
+[2017.07.20-11.34.16:990][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush207.BrushComponent0) Component already registered.
+[2017.07.20-11.34.16:990][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush149.BrushComponent0) Component already registered.
+[2017.07.20-11.34.16:990][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush45_89.BrushComponent0) Component already registered.
+[2017.07.20-11.34.16:991][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush32_62.BrushComponent0) Component already registered.
+[2017.07.20-11.34.16:991][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush50.BrushComponent0) Component already registered.
+[2017.07.20-11.34.16:991][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush16.BrushComponent0) Component already registered.
+[2017.07.20-11.34.16:991][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush25_47.BrushComponent0) Component already registered.
+[2017.07.20-11.34.16:992][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush23_43.BrushComponent0) Component already registered.
+[2017.07.20-11.34.16:992][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush87.BrushComponent0) Component already registered.
+[2017.07.20-11.34.16:992][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush82.BrushComponent0) Component already registered.
+[2017.07.20-11.34.16:992][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush89.BrushComponent0) Component already registered.
+[2017.07.20-11.34.16:992][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush60.BrushComponent0) Component already registered.
+[2017.07.20-11.34.16:993][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush58.BrushComponent0) Component already registered.
+[2017.07.20-11.34.16:993][228]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush72_122.BrushComponent0) Component already registered.
+[2017.07.20-11.36.20:593][814]Cmd: TRANSACTION UNDO
+[2017.07.20-11.36.20:593][814]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2017.07.20-11.36.20:614][814]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.07.20-11.36.28:817][741]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape)
+[2017.07.20-11.36.42:423][158]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2017.07.20-11.36.42:766][189]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2017.07.20-11.38.06:181][433]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.38.06:181][433]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-11.38.06:181][433]PIE: New page: PIE session: LifeDemo (20 Jul 2017 13:38:06)
+[2017.07.20-11.38.06:181][433]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LifeDemo
+[2017.07.20-11.38.06:227][433]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045828s)
+[2017.07.20-11.38.06:227][433]LogAIModule: Creating AISystem for world LifeDemo
+[2017.07.20-11.38.06:228][433]LogPlayLevel: PIE: World Init took: (0.000680s)
+[2017.07.20-11.38.06:228][433]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LifeDemo.LifeDemo to /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo (0.046785s)
+[2017.07.20-11.38.06:258][433]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-11.38.06:269][433]LogInit: FAudioDevice initialized.
+[2017.07.20-11.38.06:304][433]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.20-11.38.06:316][433]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo up for play (max tick rate 0) at 2017.07.20-12.38.06
+[2017.07.20-11.38.06:317][433]LogWorld: Bringing up level for play took: 0.011353
+[2017.07.20-11.38.06:319][433]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_LifeDemo -0.608
+[2017.07.20-11.38.06:327][433]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.38.14:197][364]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.38.14:236][364]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.38.53:252][ 80]LogEditorViewport: Clicking on Actor (LMB): BP_WaterFall_C (BP_WaterFall)
+[2017.07.20-11.40.45:847][398]LogEditorViewport: Clicking on Actor (LMB): BP_WaterFall_C (BP_WaterFall)
+[2017.07.20-11.41.29:260][469]Cmd: TRANSACTION UNDO
+[2017.07.20-11.41.29:261][469]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2017.07.20-11.41.29:283][469]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.07.20-11.41.29:628][491]Cmd: TRANSACTION UNDO
+[2017.07.20-11.41.29:628][491]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2017.07.20-11.41.29:649][491]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.07.20-11.41.55:782][311]LogTemp: Repeting last play command: Simulate
+[2017.07.20-11.41.55:790][311]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.41.55:790][311]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-11.41.55:790][311]PIE: New page: SIE session: LifeDemo (20 Jul 2017 13:41:55)
+[2017.07.20-11.41.55:791][311]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LifeDemo
+[2017.07.20-11.41.55:848][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056600s)
+[2017.07.20-11.41.55:848][311]LogAIModule: Creating AISystem for world LifeDemo
+[2017.07.20-11.41.55:848][311]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2017.07.20-11.41.55:849][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LifeDemo.LifeDemo to /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo (0.057818s)
+[2017.07.20-11.41.55:893][311]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-11.41.55:903][311]LogInit: FAudioDevice initialized.
+[2017.07.20-11.41.55:940][311]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.20-11.41.55:949][311]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo up for play (max tick rate 0) at 2017.07.20-12.41.55
+[2017.07.20-11.41.55:950][311]LogWorld: Bringing up level for play took: 0.008305
+[2017.07.20-11.41.55:951][311]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_LifeDemo 1.024
+[2017.07.20-11.41.55:955][311]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.42.22:417][482]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.42.22:455][482]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.42.43:847][912]LogEditorViewport: Clicking on Actor (double click): LandscapeGizmoActiveActor (LandscapeGizmoActiveActor)
+[2017.07.20-11.43.21:476][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/LifeDemo" FILE="C:/Users/Tom/Documents/GitHub/Life/Life/Saved/Autosaves/Game/Levels/LifeDemo_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.07.20-11.43.21:716][208]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.07.20-11.43.22:437][208]LogSavePackage: Save=942.89ms
+[2017.07.20-11.43.22:437][208]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Life/Life/Saved/LifeDemo_Auto5D1AE95CE44BF6A3E78AE558C341C2498.tmp' to 'C:/Users/Tom/Documents/GitHub/Life/Life/Saved/Autosaves/Game/Levels/LifeDemo_Auto5.umap'
+[2017.07.20-11.43.22:440][208]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Life/Life/Saved/Autosaves/Game/Levels/LifeDemo_Auto5.umap
+[2017.07.20-11.43.22:442][208]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/LifeDemo' took 0.984
+[2017.07.20-11.43.22:442][208]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.984
+[2017.07.20-11.50.45:528][628]Cmd: EDCALLBACK SURFPROPS
+[2017.07.20-11.50.56:757][931]Cmd: EDCALLBACK SURFPROPS
+[2017.07.20-11.54.09:184][262]Cmd: MODE ROTGRID=0
+[2017.07.20-11.54.43:671][836]Cmd: DELETE
+[2017.07.20-11.54.43:671][836]Cmd: ACTOR DELETE
+[2017.07.20-11.54.43:676][836]LogEditorActor: Deleted Actor: Brush
+[2017.07.20-11.54.43:872][836]LogEditorActor: Deleted 1 Actors (0.200 secs)
+[2017.07.20-11.55.01:381][616]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.07.20-11.55.07:793][312]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.07.20-11.55.09:033][451]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.55.09:033][451]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-11.55.09:033][451]PIE: New page: PIE session: LifeDemo (20 Jul 2017 13:55:09)
+[2017.07.20-11.55.09:033][451]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LifeDemo
+[2017.07.20-11.55.09:091][451]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057871s)
+[2017.07.20-11.55.09:092][451]LogAIModule: Creating AISystem for world LifeDemo
+[2017.07.20-11.55.09:092][451]LogPlayLevel: PIE: World Init took: (0.000693s)
+[2017.07.20-11.55.09:092][451]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LifeDemo.LifeDemo to /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo (0.058952s)
+[2017.07.20-11.55.09:127][451]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-11.55.09:139][451]LogInit: FAudioDevice initialized.
+[2017.07.20-11.55.09:171][451]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.20-11.55.09:181][451]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo up for play (max tick rate 0) at 2017.07.20-12.55.09
+[2017.07.20-11.55.09:181][451]LogWorld: Bringing up level for play took: 0.008296
+[2017.07.20-11.55.09:183][451]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_LifeDemo 0.257
+[2017.07.20-11.55.09:184][451]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.55.24:851][319]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.55.24:892][319]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-11.56.33:128][860]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/LifeDemo" FILE="C:/Users/Tom/Documents/GitHub/Life/Life/Saved/Autosaves/Game/Levels/LifeDemo_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.07.20-11.56.33:385][860]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.07.20-11.56.34:168][860]LogSavePackage: Save=1024.62ms
+[2017.07.20-11.56.34:168][860]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Life/Life/Saved/LifeDemo_Auto666627F2E49E7DE5E300CCD8A032682A5.tmp' to 'C:/Users/Tom/Documents/GitHub/Life/Life/Saved/Autosaves/Game/Levels/LifeDemo_Auto6.umap'
+[2017.07.20-11.56.34:172][860]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Life/Life/Saved/Autosaves/Game/Levels/LifeDemo_Auto6.umap
+[2017.07.20-11.56.34:174][860]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/LifeDemo' took 1.078
+[2017.07.20-11.56.34:174][860]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.078
+[2017.07.20-11.59.10:553][930]Cmd: TRANSACTION UNDO
+[2017.07.20-11.59.10:553][930]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.07.20-11.59.10:577][930]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.07.20-11.59.10:971][963]Cmd: TRANSACTION UNDO
+[2017.07.20-11.59.10:971][963]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.07.20-11.59.10:993][963]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.07.20-11.59.11:836][ 48]Cmd: TRANSACTION UNDO
+[2017.07.20-11.59.11:836][ 48]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.07.20-11.59.11:858][ 48]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.07.20-11.59.23:124][281]LogEditorViewport: Clicking on Actor (context menu): LandscapeGizmoActiveActor (LandscapeGizmoActiveActor)
+[2017.07.20-12.02.31:162][512]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.07.20-12.03.22:188][ 99]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-12.03.22:188][ 99]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-12.03.22:188][ 99]PIE: New page: PIE session: LifeDemo (20 Jul 2017 14:03:22)
+[2017.07.20-12.03.22:188][ 99]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LifeDemo
+[2017.07.20-12.03.22:277][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.088830s)
+[2017.07.20-12.03.22:277][ 99]LogAIModule: Creating AISystem for world LifeDemo
+[2017.07.20-12.03.22:277][ 99]LogPlayLevel: PIE: World Init took: (0.000644s)
+[2017.07.20-12.03.22:278][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LifeDemo.LifeDemo to /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo (0.089862s)
+[2017.07.20-12.03.22:355][ 99]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-12.03.22:366][ 99]LogInit: FAudioDevice initialized.
+[2017.07.20-12.03.22:397][ 99]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.20-12.03.22:410][ 99]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo up for play (max tick rate 0) at 2017.07.20-13.03.22
+[2017.07.20-12.03.22:411][ 99]LogWorld: Bringing up level for play took: 0.008612
+[2017.07.20-12.03.22:412][ 99]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_LifeDemo -0.515
+[2017.07.20-12.03.22:413][ 99]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-12.03.36:213][726]Cmd: LevelEditor.ToggleImmersive
+[2017.07.20-12.03.36:260][727]LogRenderer: Reallocating scene render targets to support 1340x756 NumSamples 1 (Frame:1629).
+[2017.07.20-12.03.36:305][728]LogRenderer: Reallocating scene render targets to support 1720x960 NumSamples 1 (Frame:1631).
+[2017.07.20-12.03.36:351][729]LogRenderer: Reallocating scene render targets to support 1892x1064 NumSamples 1 (Frame:1633).
+[2017.07.20-12.03.36:465][730]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:1635).
+[2017.07.20-12.03.56:257][747]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-12.03.56:335][747]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-12.04.23:687][  7]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlane)
+[2017.07.20-12.04.26:977][264]LogEditorViewport: Clicking on Actor (LMB): BP_WaterFall_C (BP_WaterFall)
+[2017.07.20-12.04.33:852][860]Cmd: TRANSACTION UNDO
+[2017.07.20-12.04.33:852][860]LogEditorTransaction: Undo Move Actors
+[2017.07.20-12.05.00:804][ 52]LogEditorViewport: Clicking on Actor (LMB): BP_WaterFall_C (BP_WaterFall)
+[2017.07.20-12.05.10:253][851]Cmd: TRANSACTION UNDO
+[2017.07.20-12.05.10:253][851]LogEditorTransaction: Undo Move Actors
+[2017.07.20-12.05.10:589][878]Cmd: TRANSACTION UNDO
+[2017.07.20-12.05.10:589][878]LogEditorTransaction: Undo Clicking on Actors
+[2017.07.20-12.05.10:896][904]Cmd: TRANSACTION UNDO
+[2017.07.20-12.05.10:896][904]LogEditorTransaction: Undo Move Actors
+[2017.07.20-12.05.10:959][904]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush162.BrushComponent0) Component already registered.
+[2017.07.20-12.05.10:960][904]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush167.BrushComponent0) Component already registered.
+[2017.07.20-12.05.10:961][904]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush129.BrushComponent0) Component already registered.
+[2017.07.20-12.05.10:962][904]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush190.BrushComponent0) Component already registered.
+[2017.07.20-12.05.10:963][904]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush181.BrushComponent0) Component already registered.
+[2017.07.20-12.05.10:963][904]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush195.BrushComponent0) Component already registered.
+[2017.07.20-12.05.10:964][904]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush31_59.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:004][904]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush19_35.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:005][904]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush113.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:005][904]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush72_122.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:005][904]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush81.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:006][904]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush293.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:007][904]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush266.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:007][904]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush299.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:008][904]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush271.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:008][904]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush327.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:009][904]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush332.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:009][904]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush304.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:011][904]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush151.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:011][904]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush71.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:012][904]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush169.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:012][904]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush95.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:013][904]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush243.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:014][904]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush189.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:015][904]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush234.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:245][919]Cmd: TRANSACTION UNDO
+[2017.07.20-12.05.11:245][919]LogEditorTransaction: Undo Move Actors
+[2017.07.20-12.05.11:307][919]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush162.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:308][919]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush167.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:309][919]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush129.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:310][919]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush190.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:311][919]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush181.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:311][919]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush195.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:312][919]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush31_59.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:352][919]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush19_35.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:353][919]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush113.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:354][919]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush72_122.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:354][919]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush81.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:355][919]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush293.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:356][919]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush266.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:356][919]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush299.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:356][919]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush271.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:357][919]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush327.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:358][919]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush332.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:359][919]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush304.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:361][919]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush151.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:361][919]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush71.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:361][919]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush169.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:362][919]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush95.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:362][919]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush243.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:363][919]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush189.BrushComponent0) Component already registered.
+[2017.07.20-12.05.11:363][919]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.BoxBrush234.BrushComponent0) Component already registered.
+[2017.07.20-12.06.04:326][492]Cmd: TRANSACTION UNDO
+[2017.07.20-12.06.04:326][492]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2017.07.20-12.06.04:358][492]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.07.20-12.06.04:514][498]Cmd: TRANSACTION UNDO
+[2017.07.20-12.06.04:514][498]LogEditorTransaction: Undo Edit Brush Size
+[2017.07.20-12.06.23:495][485]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-12.06.23:495][485]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-12.06.23:495][485]PIE: New page: SIE session: LifeDemo (20 Jul 2017 14:06:23)
+[2017.07.20-12.06.23:495][485]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LifeDemo
+[2017.07.20-12.06.23:578][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082981s)
+[2017.07.20-12.06.23:578][485]LogAIModule: Creating AISystem for world LifeDemo
+[2017.07.20-12.06.23:579][485]LogPlayLevel: PIE: World Init took: (0.000581s)
+[2017.07.20-12.06.23:579][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LifeDemo.LifeDemo to /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo (0.083892s)
+[2017.07.20-12.06.23:616][485]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-12.06.23:626][485]LogInit: FAudioDevice initialized.
+[2017.07.20-12.06.23:660][485]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.20-12.06.23:671][485]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo up for play (max tick rate 0) at 2017.07.20-13.06.23
+[2017.07.20-12.06.23:672][485]LogWorld: Bringing up level for play took: 0.009711
+[2017.07.20-12.06.23:673][485]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_LifeDemo 0.746
+[2017.07.20-12.06.23:684][485]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-12.06.54:353][147]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-12.06.54:393][147]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-12.07.12:605][294]LogTemp: Repeting last play command: Simulate
+[2017.07.20-12.07.12:614][294]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-12.07.12:614][294]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-12.07.12:614][294]PIE: New page: SIE session: LifeDemo (20 Jul 2017 14:07:12)
+[2017.07.20-12.07.12:614][294]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LifeDemo
+[2017.07.20-12.07.12:700][294]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085812s)
+[2017.07.20-12.07.12:700][294]LogAIModule: Creating AISystem for world LifeDemo
+[2017.07.20-12.07.12:701][294]LogPlayLevel: PIE: World Init took: (0.000559s)
+[2017.07.20-12.07.12:701][294]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LifeDemo.LifeDemo to /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo (0.086683s)
+[2017.07.20-12.07.12:730][294]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-12.07.12:739][294]LogInit: FAudioDevice initialized.
+[2017.07.20-12.07.12:770][294]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.20-12.07.12:780][294]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo up for play (max tick rate 0) at 2017.07.20-13.07.12
+[2017.07.20-12.07.12:781][294]LogWorld: Bringing up level for play took: 0.010362
+[2017.07.20-12.07.12:783][294]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_LifeDemo -0.144
+[2017.07.20-12.07.12:786][294]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-12.07.33:269][150]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-12.07.33:303][150]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-12.07.42:247][102]LogTemp: Repeting last play command: Simulate
+[2017.07.20-12.07.42:255][102]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-12.07.42:255][102]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-12.07.42:255][102]PIE: New page: SIE session: LifeDemo (20 Jul 2017 14:07:42)
+[2017.07.20-12.07.42:255][102]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LifeDemo
+[2017.07.20-12.07.42:340][102]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084391s)
+[2017.07.20-12.07.42:340][102]LogAIModule: Creating AISystem for world LifeDemo
+[2017.07.20-12.07.42:340][102]LogPlayLevel: PIE: World Init took: (0.000619s)
+[2017.07.20-12.07.42:341][102]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LifeDemo.LifeDemo to /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo (0.085337s)
+[2017.07.20-12.07.42:367][102]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-12.07.42:377][102]LogInit: FAudioDevice initialized.
+[2017.07.20-12.07.42:408][102]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.20-12.07.42:419][102]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo up for play (max tick rate 0) at 2017.07.20-13.07.42
+[2017.07.20-12.07.42:420][102]LogWorld: Bringing up level for play took: 0.010659
+[2017.07.20-12.07.42:421][102]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_LifeDemo -0.506
+[2017.07.20-12.07.42:431][102]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-12.08.08:595][392]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-12.08.08:638][392]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-12.08.33:024][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/LifeDemo" FILE="C:/Users/Tom/Documents/GitHub/Life/Life/Saved/Autosaves/Game/Levels/LifeDemo_Auto7.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.07.20-12.08.33:325][273]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.07.20-12.08.34:314][273]LogSavePackage: Save=1274.28ms
+[2017.07.20-12.08.34:314][273]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Life/Life/Saved/LifeDemo_Auto7AE0D08EB42A758A989CBE3A747B9DFC1.tmp' to 'C:/Users/Tom/Documents/GitHub/Life/Life/Saved/Autosaves/Game/Levels/LifeDemo_Auto7.umap'
+[2017.07.20-12.08.34:317][273]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Life/Life/Saved/Autosaves/Game/Levels/LifeDemo_Auto7.umap
+[2017.07.20-12.08.34:319][273]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/LifeDemo' took 1.310
+[2017.07.20-12.08.34:319][273]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.310
+[2017.07.20-12.09.44:089][628]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.07.20-12.10.27:127][ 42]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.07.20-12.11.10:645][  2]LogActorFactory: Actor Factory created SM_HouseSign
+[2017.07.20-12.11.11:652][117]LogActorFactory: Actor Factory created SM_HouseSign
+[2017.07.20-12.11.18:648][894]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-12.11.18:649][894]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-12.11.18:649][894]PIE: New page: PIE session: LifeDemo (20 Jul 2017 14:11:18)
+[2017.07.20-12.11.18:649][894]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LifeDemo
+[2017.07.20-12.11.18:734][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085792s)
+[2017.07.20-12.11.18:735][894]LogAIModule: Creating AISystem for world LifeDemo
+[2017.07.20-12.11.18:735][894]LogPlayLevel: PIE: World Init took: (0.000711s)
+[2017.07.20-12.11.18:736][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LifeDemo.LifeDemo to /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo (0.086992s)
+[2017.07.20-12.11.18:807][894]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-12.11.18:818][894]LogInit: FAudioDevice initialized.
+[2017.07.20-12.11.18:847][894]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.20-12.11.18:861][894]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo up for play (max tick rate 0) at 2017.07.20-13.11.18
+[2017.07.20-12.11.18:862][894]LogWorld: Bringing up level for play took: 0.009653
+[2017.07.20-12.11.18:864][894]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_LifeDemo -0.062
+[2017.07.20-12.11.18:870][894]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-12.11.22:390][301]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-12.11.22:435][301]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-12.11.23:481][416]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HouseSign)
+[2017.07.20-12.11.27:135][797]Cmd: DELETE
+[2017.07.20-12.11.27:135][797]Cmd: ACTOR DELETE
+[2017.07.20-12.11.27:139][797]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.20-12.11.27:155][797]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2017.07.20-12.11.27:703][833]LogActorFactory: Actor Factory created SM_HouseSign
+[2017.07.20-12.11.28:738][953]LogActorFactory: Actor Factory created SM_HouseSign
+[2017.07.20-12.11.37:708][886]LogActorFactory: Actor Factory created SM_Roundabout
+[2017.07.20-12.11.39:182][ 53]LogActorFactory: Actor Factory created SM_Roundabout
+[2017.07.20-12.11.41:884][216]LogActorFactory: Actor Factory created SM_SwingSet
+[2017.07.20-12.11.42:835][325]LogActorFactory: Actor Factory created SM_SwingSet
+[2017.07.20-12.11.49:051][ 21]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-12.11.49:051][ 21]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-12.11.49:051][ 21]PIE: New page: PIE session: LifeDemo (20 Jul 2017 14:11:49)
+[2017.07.20-12.11.49:051][ 21]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LifeDemo
+[2017.07.20-12.11.49:136][ 21]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085856s)
+[2017.07.20-12.11.49:137][ 21]LogAIModule: Creating AISystem for world LifeDemo
+[2017.07.20-12.11.49:137][ 21]LogPlayLevel: PIE: World Init took: (0.000579s)
+[2017.07.20-12.11.49:137][ 21]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LifeDemo.LifeDemo to /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo (0.086879s)
+[2017.07.20-12.11.49:169][ 21]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-12.11.49:178][ 21]LogInit: FAudioDevice initialized.
+[2017.07.20-12.11.49:213][ 21]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.20-12.11.49:224][ 21]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo up for play (max tick rate 0) at 2017.07.20-13.11.49
+[2017.07.20-12.11.49:224][ 21]LogWorld: Bringing up level for play took: 0.009885
+[2017.07.20-12.11.49:226][ 21]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_LifeDemo 0.3
+[2017.07.20-12.11.49:235][ 21]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-12.11.57:674][ 20]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-12.11.57:721][ 20]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-12.12.01:553][415]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Roundabout)
+[2017.07.20-12.12.03:646][661]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_SwingSet)
+[2017.07.20-12.14.38:718][524]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-12.14.38:718][524]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-12.14.38:718][524]PIE: New page: PIE session: LifeDemo (20 Jul 2017 14:14:38)
+[2017.07.20-12.14.38:718][524]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LifeDemo
+[2017.07.20-12.14.38:822][524]LogPlayLevel: PIE: StaticDuplicateObject took: (0.103072s)
+[2017.07.20-12.14.38:822][524]LogAIModule: Creating AISystem for world LifeDemo
+[2017.07.20-12.14.38:822][524]LogPlayLevel: PIE: World Init took: (0.000608s)
+[2017.07.20-12.14.38:823][524]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LifeDemo.LifeDemo to /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo (0.104145s)
+[2017.07.20-12.14.38:894][524]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-12.14.38:905][524]LogInit: FAudioDevice initialized.
+[2017.07.20-12.14.38:939][524]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.20-12.14.38:952][524]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LifeDemo.LifeDemo up for play (max tick rate 0) at 2017.07.20-13.14.38
+[2017.07.20-12.14.38:953][524]LogWorld: Bringing up level for play took: 0.010181
+[2017.07.20-12.14.38:954][524]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_LifeDemo 0.028
+[2017.07.20-12.14.38:955][524]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-12.14.48:537][642]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-12.14.48:583][642]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo' with GeneratedClass '/Game/Levels/LifeDemo.LifeDemo_C' with ClassGeneratedBy '/Game/Levels/LifeDemo.LifeDemo:PersistentLevel.LifeDemo'
+[2017.07.20-12.15.17:167][518]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.20-12.16.35:742][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/LifeDemo" FILE="C:/Users/Tom/Documents/GitHub/Life/Life/Content/Levels/LifeDemo.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.20-12.16.37:235][175]LogSavePackage: Save=1445.98ms
+[2017.07.20-12.16.37:235][175]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Life/Life/Saved/LifeDemo23E57BB44A03B86BE636F0AABE77F8A4.tmp' to 'C:/Users/Tom/Documents/GitHub/Life/Life/Content/Levels/LifeDemo.umap'
+[2017.07.20-12.16.37:241][175]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Life/Life/Content/Levels/LifeDemo.umap
+[2017.07.20-12.16.45:279][976]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="C:/Users/Tom/Documents/GitHub/Life/Life/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2017.07.20-12.16.45:340][976]LogSavePackage: Save=51.24ms
+[2017.07.20-12.16.45:340][976]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Life/Life/Saved/FirstPersonCharacter09EA8A65409BCED920970DB31732A0C2.tmp' to 'C:/Users/Tom/Documents/GitHub/Life/Life/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.07.20-12.16.45:344][976]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Life/Life/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.07.20-12.16.45:598][977]Cmd: QUIT_EDITOR
+[2017.07.20-12.16.45:849][977]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.20-12.16.45:867][977]LogExit: Preparing to exit.
+[2017.07.20-12.16.47:008][977]LogExit: Editor shut down
+[2017.07.20-12.16.47:028][977]LogExit: Transaction tracking system shut down
+[2017.07.20-12.16.47:295][977]LogObj: Freed 0b from 0 cluster array pools.
+[2017.07.20-12.16.47:296][977]LogExit: Object subsystem successfully closed.
+[2017.07.20-12.16.47:349][977]LogD3D11RHI: Shutdown
+[2017.07.20-12.16.47:349][977]LogD3D11RHI: CleanupD3DDevice
+[2017.07.20-12.16.47:524][977]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.07.20-12.16.47:548][977]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2017.07.20-12.16.47:548][977]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2017.07.20-12.16.47:548][977]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2017.07.20-12.16.47:548][977]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.07.20-12.16.47:548][977]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.07.20-12.16.47:548][977]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.07.20-12.16.47:548][977]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.07.20-12.16.47:548][977]LogDirectoryWatcher: A directory notification for 'E:/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.07.20-12.16.47:552][977]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.07.20-12.16.47:552][977]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.07.20-12.16.47:552][977]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.07.20-12.16.47:552][977]LogDirectoryWatcher: A directory notification for 'C:/Users/Tom/Documents/GitHub/Life/Life/Content/Collections/' was aborted.
+[2017.07.20-12.16.47:552][977]LogDirectoryWatcher: A directory notification for 'C:/Users/Tom/Documents/GitHub/Life/Life/Content/Developers/Tom/Collections/' was aborted.
+[2017.07.20-12.16.47:552][977]LogDirectoryWatcher: A directory notification for 'C:/Users/Tom/Documents/GitHub/Life/Life/Saved/Collections/' was aborted.
+[2017.07.20-12.16.47:552][977]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.07.20-12.16.47:552][977]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.07.20-12.16.47:552][977]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.07.20-12.16.47:552][977]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.07.20-12.16.47:552][977]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.07.20-12.16.47:552][977]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.07.20-12.16.47:552][977]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.07.20-12.16.47:552][977]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.07.20-12.16.47:552][977]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.07.20-12.16.47:552][977]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.07.20-12.16.47:552][977]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.07.20-12.16.47:552][977]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.07.20-12.16.47:552][977]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.07.20-12.16.47:552][977]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.07.20-12.16.47:552][977]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.07.20-12.16.47:553][977]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.07.20-12.16.47:553][977]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.07.20-12.16.47:553][977]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.07.20-12.16.47:553][977]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.07.20-12.16.47:553][977]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.07.20-12.16.47:553][977]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.07.20-12.16.47:553][977]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.07.20-12.16.47:553][977]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.07.20-12.16.47:553][977]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.07.20-12.16.47:553][977]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.07.20-12.16.47:553][977]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.07.20-12.16.47:553][977]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.07.20-12.16.47:553][977]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.07.20-12.16.47:553][977]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.07.20-12.16.47:553][977]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.07.20-12.16.47:553][977]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.07.20-12.16.47:553][977]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.07.20-12.16.47:554][977]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.07.20-12.16.47:554][977]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.07.20-12.16.47:554][977]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.07.20-12.16.47:554][977]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.07.20-12.16.47:554][977]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.07.20-12.16.47:554][977]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.07.20-12.16.47:817][977]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.07.20-12.16.47:817][977]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.07.20-12.16.47:817][977]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.07.20-12.16.47:817][977]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.07.20-12.16.47:817][977]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.07.20-12.16.47:817][977]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.07.20-12.16.47:817][977]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.07.20-12.16.47:817][977]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.07.20-12.16.47:817][977]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.07.20-12.16.47:817][977]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.07.20-12.16.47:817][977]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.07.20-12.16.47:818][977]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.07.20-12.16.47:818][977]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.07.20-12.16.47:818][977]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.07.20-12.16.47:818][977]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.07.20-12.16.47:818][977]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.07.20-12.16.47:818][977]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.07.20-12.16.47:818][977]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.07.20-12.16.47:818][977]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.07.20-12.16.47:818][977]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.07.20-12.16.47:818][977]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.07.20-12.16.47:818][977]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.07.20-12.16.47:818][977]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.07.20-12.16.47:818][977]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.07.20-12.16.47:872][977]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.07.20-12.16.47:872][977]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.07.20-12.16.47:872][977]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.07.20-12.16.47:872][977]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.07.20-12.16.47:872][977]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.07.20-12.16.47:872][977]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.07.20-12.16.47:872][977]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.07.20-12.16.47:872][977]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.07.20-12.16.47:872][977]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.07.20-12.16.47:872][977]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.07.20-12.16.47:879][977]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.07.20-12.16.47:879][977]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.07.20-12.16.47:879][977]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.07.20-12.16.47:879][977]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.07.20-12.16.47:879][977]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.07.20-12.16.47:879][977]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.07.20-12.16.47:879][977]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.07.20-12.16.47:880][977]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.07.20-12.16.47:880][977]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.07.20-12.16.47:880][977]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.07.20-12.16.47:880][977]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.07.20-12.16.47:880][977]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.07.20-12.16.47:880][977]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.07.20-12.16.47:880][977]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.07.20-12.16.47:880][977]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.07.20-12.16.47:880][977]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.07.20-12.16.47:880][977]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.07.20-12.16.47:880][977]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.07.20-12.16.47:880][977]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.07.20-12.16.47:880][977]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.07.20-12.16.48:019][977]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.07.20-12.16.48:020][977]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.07.20-12.16.48:020][977]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.07.20-12.16.48:020][977]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.07.20-12.16.48:020][977]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.07.20-12.16.48:020][977]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.07.20-12.16.48:020][977]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.07.20-12.16.48:020][977]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.07.20-12.16.48:020][977]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.07.20-12.16.48:020][977]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.07.20-12.16.48:121][977]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.07.20-12.16.48:221][977]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.07.20-12.16.48:221][977]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.07.20-12.16.48:221][977]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.07.20-12.16.48:221][977]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.07.20-12.16.48:221][977]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.07.20-12.16.48:221][977]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.07.20-12.16.48:222][977]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.07.20-12.16.48:222][977]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.07.20-12.16.48:222][977]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.07.20-12.16.48:222][977]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.07.20-12.16.48:222][977]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.07.20-12.16.48:222][977]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.07.20-12.16.48:222][977]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.07.20-12.16.48:222][977]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.07.20-12.16.48:222][977]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.07.20-12.16.48:223][977]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.07.20-12.16.48:223][977]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.07.20-12.16.48:223][977]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.07.20-12.16.48:223][977]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.07.20-12.16.48:223][977]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.07.20-12.16.48:223][977]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.07.20-12.16.48:223][977]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.07.20-12.16.48:232][977]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.07.20-12.16.48:232][977]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.07.20-12.16.48:239][977]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.07.20-12.16.48:239][977]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.07.20-12.16.48:239][977]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.07.20-12.16.48:239][977]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.07.20-12.16.48:239][977]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.07.20-12.16.48:241][977]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.07.20-12.16.48:241][977]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.07.20-12.16.48:241][977]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.07.20-12.16.48:241][977]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.07.20-12.16.48:241][977]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.07.20-12.16.48:241][977]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.07.20-12.16.48:388][977]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.07.20-12.16.48:388][977]LogDirectoryWatcher: A directory notification for 'C:/Users/Tom/Documents/GitHub/Life/Life/Content/' was aborted.
+[2017.07.20-12.16.48:388][977]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.07.20-12.16.48:388][977]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.07.20-12.16.48:395][977]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.07.20-12.16.48:398][977]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.07.20-12.16.48:398][977]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.07.20-12.16.48:398][977]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.07.20-12.16.48:398][977]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.07.20-12.16.48:399][977]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.07.20-12.16.48:399][977]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.07.20-12.16.48:399][977]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.07.20-12.16.48:399][977]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.07.20-12.16.48:452][977]LogDerivedDataCache: Shutdown
+[2017.07.20-12.16.48:452][977]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.07.20-12.16.48:452][977]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.07.20-12.16.48:452][977]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.07.20-12.16.48:452][977]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.07.20-12.16.48:453][977]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.07.20-12.16.48:454][977]LogHMD: Oculus shutdown.
+[2017.07.20-12.16.48:454][977]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.07.20-12.16.48:454][977]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.07.20-12.16.48:454][977]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.07.20-12.16.48:454][977]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.07.20-12.16.48:454][977]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.07.20-12.16.48:454][977]LogOnline:Display: Unloading online subsystem: NULL
+[2017.07.20-12.16.48:454][977]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.07.20-12.16.48:454][977]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.07.20-12.16.48:454][977]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.07.20-12.16.48:454][977]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBEABEC69-434E-3711-06DF-8CAD5FD5DC40%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=9507d6a347edc37d65474c8629981c28%7Ccdc8881e81874f7b9309baf36bcfe432%7Cf9f02938-7094-4537-917c-c69c45de1e4a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.07.20-12.16.48:484][977]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.07.20-12.16.48:485][977]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.07.20-12.16.48:485][977]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.07.20-12.16.48:485][977]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.07.20-12.16.48:485][977]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.07.20-12.16.48:485][977]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.07.20-12.16.48:485][977]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.07.20-12.16.48:485][977]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.07.20-12.16.48:485][977]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.07.20-12.16.48:488][977]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.07.20-12.16.48:488][977]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.07.20-12.16.48:488][977]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.07.20-12.16.48:488][977]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.07.20-12.16.48:488][977]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.07.20-12.16.48:488][977]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.07.20-12.16.48:488][977]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.07.20-12.16.48:488][977]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.07.20-12.16.48:488][977]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.07.20-12.16.48:488][977]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.07.20-12.16.48:490][977]LogExit: Exiting.
+[2017.07.20-12.16.48:501][977]Log file closed, 07/20/17 13:16:48
